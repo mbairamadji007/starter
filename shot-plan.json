@@ -1,0 +1,3075 @@
+{
+  "schemaVersion": 1,
+  "status": "production_editorial_plan",
+  "title": "qui a inventé les rois ?",
+  "language": "fr",
+  "format": {
+    "aspectRatio": "16:9",
+    "width": 1920,
+    "height": 1080,
+    "targetFrameRate": 30
+  },
+  "duration": 235.608229167,
+  "audioMaster": "/workspace/work/documentary/prepared/audio/voice-master.wav",
+  "audioMasterSha256": "8ccd68e3f10d20337512caf26e9f03a1f31f7a39cbda6420648ed11a414c7680",
+  "audioClockRate": 48000,
+  "timingAuthority": "analysis/audio-report.json ; keptSegments et positions master, sans changement de vitesse",
+  "sourceTranscript": "analysis/transcript.json",
+  "sourceTranscriptStatus": "ASR provisoire, non certifié à l’écoute ; la copie écran est une paraphrase courte et ne complète pas les passages mal reconnus",
+  "voiceBlocks": [
+    {
+      "clip": "01",
+      "start": 0.0,
+      "end": 18.832354167,
+      "duration": 18.832354167,
+      "source": "01.mp3",
+      "preparedAudio": "/workspace/work/documentary/prepared/audio/01.wav",
+      "theme": "la question du roi"
+    },
+    {
+      "clip": "02",
+      "start": 18.832354167,
+      "end": 45.091291667,
+      "duration": 26.2589375,
+      "source": "02.mp3",
+      "preparedAudio": "/workspace/work/documentary/prepared/audio/02.wav",
+      "theme": "la possibilité de partir"
+    },
+    {
+      "clip": "03",
+      "start": 45.091291667,
+      "end": 71.596270833,
+      "duration": 26.504979167,
+      "source": "03.mp3",
+      "preparedAudio": "/workspace/work/documentary/prepared/audio/03.wav",
+      "theme": "la réserve accumulable"
+    },
+    {
+      "clip": "04",
+      "start": 71.596270833,
+      "end": 93.542291667,
+      "duration": 21.946020833,
+      "source": "04.mp3",
+      "preparedAudio": "/workspace/work/documentary/prepared/audio/04.wav",
+      "theme": "le coût du départ"
+    },
+    {
+      "clip": "05",
+      "start": 93.542291667,
+      "end": 120.839791667,
+      "duration": 27.2975,
+      "source": "05.mp3",
+      "preparedAudio": "/workspace/work/documentary/prepared/audio/05.wav",
+      "theme": "coordonner et protéger"
+    },
+    {
+      "clip": "06",
+      "start": 120.839791667,
+      "end": 149.784333333,
+      "duration": 28.944541667,
+      "source": "06.mp3",
+      "preparedAudio": "/workspace/work/documentary/prepared/audio/06.wav",
+      "theme": "justifier les privilèges"
+    },
+    {
+      "clip": "07",
+      "start": 149.784333333,
+      "end": 175.906416667,
+      "duration": 26.122083333,
+      "source": "07.mp3",
+      "preparedAudio": "/workspace/work/documentary/prepared/audio/07.wav",
+      "theme": "rendre le pouvoir sacré"
+    },
+    {
+      "clip": "08",
+      "start": 175.906416667,
+      "end": 202.769354167,
+      "duration": 26.8629375,
+      "source": "08.mp3",
+      "preparedAudio": "/workspace/work/documentary/prepared/audio/08.wav",
+      "theme": "transmettre une institution"
+    },
+    {
+      "clip": "09",
+      "start": 202.769354167,
+      "end": 231.817520833,
+      "duration": 29.048166667,
+      "source": "09.mp3",
+      "preparedAudio": "/workspace/work/documentary/prepared/audio/09.wav",
+      "theme": "la permanence du système"
+    },
+    {
+      "clip": "10",
+      "start": 231.817520833,
+      "end": 235.608229167,
+      "duration": 3.790708333,
+      "source": "10.mp3",
+      "preparedAudio": "/workspace/work/documentary/prepared/audio/10.wav",
+      "theme": "signature et abonnement"
+    }
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "clip": "01",
+      "title": "pourquoi un roi ?",
+      "start": 0.0,
+      "end": 18.832354167,
+      "displayPolicy": "afficher seulement le titre prévu par le plan, sans en-tête doublon"
+    },
+    {
+      "id": 2,
+      "clip": "02",
+      "title": "avant les rois",
+      "start": 18.832354167,
+      "end": 45.091291667,
+      "displayPolicy": "afficher seulement le titre prévu par le plan, sans en-tête doublon"
+    },
+    {
+      "id": 3,
+      "clip": "03",
+      "title": "la richesse se stocke",
+      "start": 45.091291667,
+      "end": 71.596270833,
+      "displayPolicy": "afficher seulement le titre prévu par le plan, sans en-tête doublon"
+    },
+    {
+      "id": 4,
+      "clip": "04",
+      "title": "partir a un prix",
+      "start": 71.596270833,
+      "end": 93.542291667,
+      "displayPolicy": "afficher seulement le titre prévu par le plan, sans en-tête doublon"
+    },
+    {
+      "id": 5,
+      "clip": "05",
+      "title": "il faut coordonner",
+      "start": 93.542291667,
+      "end": 120.839791667,
+      "displayPolicy": "afficher seulement le titre prévu par le plan, sans en-tête doublon"
+    },
+    {
+      "id": 6,
+      "clip": "06",
+      "title": "justifier le sommet",
+      "start": 120.839791667,
+      "end": 149.784333333,
+      "displayPolicy": "afficher seulement le titre prévu par le plan, sans en-tête doublon"
+    },
+    {
+      "id": 7,
+      "clip": "07",
+      "title": "l’autorité devient sacrée",
+      "start": 149.784333333,
+      "end": 175.906416667,
+      "displayPolicy": "afficher seulement le titre prévu par le plan, sans en-tête doublon"
+    },
+    {
+      "id": 8,
+      "clip": "08",
+      "title": "le pouvoir survit",
+      "start": 175.906416667,
+      "end": 202.769354167,
+      "displayPolicy": "afficher seulement le titre prévu par le plan, sans en-tête doublon"
+    },
+    {
+      "id": 9,
+      "clip": "09",
+      "title": "le système reste",
+      "start": 202.769354167,
+      "end": 231.817520833,
+      "displayPolicy": "afficher seulement le titre prévu par le plan, sans en-tête doublon"
+    }
+  ],
+  "cta": {
+    "clip": "10",
+    "start": 231.817520833,
+    "end": 235.608229167,
+    "spokenCtaAt": 234.360583333,
+    "title": "abonnez-vous",
+    "unknownSignatureNotDisplayed": true
+  },
+  "visualRules": {
+    "palette": {
+      "paper": "#eee3d1",
+      "ink": "#161b1c",
+      "brass": "#b18a50",
+      "earth": "#a55038"
+    },
+    "safeMarginsPx": 120,
+    "textBlocksPerFrameMaximum": 2,
+    "titleSizeRangePx": [
+      28,
+      80
+    ],
+    "introSerifTitleSizePx": 120,
+    "chapterHeadersMustNotDuplicateShotTitle": true,
+    "noAutomaticVerbatimSubtitles": true,
+    "noInventedNarration": true,
+    "noQuantitativeGraphicsWithoutSpokenData": true,
+    "noSingleRepeatedKenBurnsTreatment": true,
+    "sourceImagesMustNotBeFalselyPresentedAsArchaeologicalReconstructions": true,
+    "illustrativeObjectsKeepTheirActualProvenance": true,
+    "transitions": "coupes franches et raccords graphiques majoritaires ; fondus courts seulement quand la respiration du récit le permet"
+  },
+  "assetCatalog": [
+    {
+      "id": "paper_texture",
+      "kind": "texture",
+      "query": "public domain warm paper scanned subtle texture",
+      "requirements": "grain fin ; contraste faible ; pas de texte lisible ou de marque",
+      "licenseRequirement": "licence réutilisable et attribution consignée ; objet et photographie vérifiés séparément"
+    },
+    {
+      "id": "royal_relief",
+      "kind": "photo",
+      "query": "Mesopotamian royal relief king public domain museum",
+      "requirements": "objet mésopotamien documenté ; titre et date exacts gardés dans les crédits ; ne pas le dater de 3200 si sa notice indique une autre époque",
+      "licenseRequirement": "licence réutilisable et attribution consignée ; objet et photographie vérifiés séparément"
+    },
+    {
+      "id": "royal_statue",
+      "kind": "photo",
+      "query": "Sumerian royal statue seated ruler museum public domain",
+      "requirements": "statue ou relief royal documenté ; pas de souverain français ou médiéval de substitution",
+      "licenseRequirement": "licence réutilisable et attribution consignée ; objet et photographie vérifiés séparément"
+    },
+    {
+      "id": "royal_privilege_icons",
+      "kind": "vector",
+      "query": "palace spear tax clay grain custom pictograms",
+      "requirements": "créer trois pictogrammes originaux simples, sans texte supplémentaire",
+      "licenseRequirement": "licence réutilisable et attribution consignée ; objet et photographie vérifiés séparément"
+    },
+    {
+      "id": "open_landscape_video",
+      "kind": "video",
+      "query": "dry landscape walking horizon video reusable license",
+      "requirements": "paysage contemporain illustratif ; aucun acteur présenté comme chasseur-cueilleur d’époque",
+      "licenseRequirement": "licence réutilisable et attribution consignée ; objet et photographie vérifiés séparément"
+    },
+    {
+      "id": "human_silhouettes",
+      "kind": "vector",
+      "query": "original minimal human silhouette group",
+      "requirements": "dessins originaux neutres ; pas de photographie ethnographique présentée comme préhistoire",
+      "licenseRequirement": "licence réutilisable et attribution consignée ; objet et photographie vérifiés séparément"
+    },
+    {
+      "id": "forest_video",
+      "kind": "video",
+      "query": "forest path trees moving light reusable video",
+      "requirements": "chemin et lisière contemporains illustratifs ; aucun lieu historique affirmé",
+      "licenseRequirement": "licence réutilisable et attribution consignée ; objet et photographie vérifiés séparément"
+    },
+    {
+      "id": "grain_macro",
+      "kind": "photo",
+      "query": "wheat barley grains macro public domain",
+      "requirements": "grain en gros plan ; lumière naturelle ; surface lisible en 16:9",
+      "licenseRequirement": "licence réutilisable et attribution consignée ; objet et photographie vérifiés séparément"
+    },
+    {
+      "id": "field_video",
+      "kind": "video",
+      "query": "wheat field wind close up public domain reusable video",
+      "requirements": "céréales au vent ; pas de tracteur ou de machine moderne dans le cadre",
+      "licenseRequirement": "licence réutilisable et attribution consignée ; objet et photographie vérifiés séparément"
+    },
+    {
+      "id": "storage_icons",
+      "kind": "vector",
+      "query": "original jar grain sheep livestock icons",
+      "requirements": "formes simples de réserve et troupeau ; aucune quantité ou mesure inventée",
+      "licenseRequirement": "licence réutilisable et attribution consignée ; objet et photographie vérifiés séparément"
+    },
+    {
+      "id": "storage_photo",
+      "kind": "photo",
+      "query": "grain storage clay vessel barley museum public domain",
+      "requirements": "contenant et grain illustratifs ; ne pas affirmer que l’objet photographié appartient aux premières réserves",
+      "licenseRequirement": "licence réutilisable et attribution consignée ; objet et photographie vérifiés séparément"
+    },
+    {
+      "id": "settlement_landscape",
+      "kind": "photo",
+      "query": "ancient settlement ruins Mesopotamia Uruk public domain",
+      "requirements": "ruines ou paysage situé et sourcé ; pas de village moderne présenté comme restitution archéologique",
+      "licenseRequirement": "licence réutilisable et attribution consignée ; objet et photographie vérifiés séparément"
+    },
+    {
+      "id": "settlement_diagram",
+      "kind": "vector",
+      "query": "original schematic houses fields settlement",
+      "requirements": "schéma éditorial abstrait de maisons et parcelles ; pas de plan archéologique inventé",
+      "licenseRequirement": "licence réutilisable et attribution consignée ; objet et photographie vérifiés séparément"
+    },
+    {
+      "id": "accounting_grid",
+      "kind": "vector",
+      "query": "original tally marks grid grain accounts",
+      "requirements": "animation originale de la métaphore du tableur ; éviter le faux artefact ancien",
+      "licenseRequirement": "licence réutilisable et attribution consignée ; objet et photographie vérifiés séparément"
+    },
+    {
+      "id": "clay_admin",
+      "kind": "photo",
+      "query": "Mesopotamian administrative clay tablet grain rations public domain museum",
+      "requirements": "notice indiquant un usage administratif ; époque exacte conservée ; pas d’attribution automatique à Uruk 3200",
+      "licenseRequirement": "licence réutilisable et attribution consignée ; objet et photographie vérifiés séparément"
+    },
+    {
+      "id": "grain_exchange_icons",
+      "kind": "vector",
+      "query": "original grain hands work exchange icons",
+      "requirements": "transfert schématique ; pas de taux d’intérêt, de salaire ou de montant ajouté",
+      "licenseRequirement": "licence réutilisable et attribution consignée ; objet et photographie vérifiés séparément"
+    },
+    {
+      "id": "uruk_map",
+      "kind": "map",
+      "query": "southern Mesopotamia Tigris Euphrates Uruk geographic context",
+      "requirements": "carte originale avec un repère Uruk et les fleuves ; ne pas ajouter de frontières anciennes ou de littoral daté non vérifié",
+      "licenseRequirement": "licence réutilisable et attribution consignée ; objet et photographie vérifiés séparément"
+    },
+    {
+      "id": "coordination_icons",
+      "kind": "vector",
+      "query": "original water rations conflict coordination nodes",
+      "requirements": "trois pictogrammes et des flux ; aucun graphique statistique",
+      "licenseRequirement": "licence réutilisable et attribution consignée ; objet et photographie vérifiés séparément"
+    },
+    {
+      "id": "mesopotamian_war_panel",
+      "kind": "photo",
+      "query": "Standard of Ur war panel public domain museum",
+      "requirements": "panneau ou relief mésopotamien documenté ; un objet postérieur à 3200 illustre le thème sans en devenir une preuve datée",
+      "licenseRequirement": "licence réutilisable et attribution consignée ; objet et photographie vérifiés séparément"
+    },
+    {
+      "id": "hierarchy_diagram",
+      "kind": "vector",
+      "query": "original abstract hierarchy strata triangle",
+      "requirements": "schéma contemporain du récit ; éviter toute pyramide égyptienne qui détournerait le contexte",
+      "licenseRequirement": "licence réutilisable et attribution consignée ; objet et photographie vérifiés séparément"
+    },
+    {
+      "id": "stone_work",
+      "kind": "photo",
+      "query": "stone masonry hands carved block detail public domain",
+      "requirements": "gros plan de pierre ou construction illustratif, sans prétendre reconstituer un chantier ancien",
+      "licenseRequirement": "licence réutilisable et attribution consignée ; objet et photographie vérifiés séparément"
+    },
+    {
+      "id": "celestial_motif",
+      "kind": "vector",
+      "query": "original radial circle star celestial motif",
+      "requirements": "motif graphique original et générique ; ne pas l’étiqueter comme symbole religieux authentique",
+      "licenseRequirement": "licence réutilisable et attribution consignée ; objet et photographie vérifiés séparément"
+    },
+    {
+      "id": "temple_ruins_video",
+      "kind": "video",
+      "query": "Mesopotamia temple palace ruins reusable video",
+      "requirements": "ruines actuelles localisées ; à défaut photo sourcée et couches animées ; ne pas présenter la ziggourat d’Ur comme monument d’Uruk 3200",
+      "licenseRequirement": "licence réutilisable et attribution consignée ; objet et photographie vérifiés séparément"
+    },
+    {
+      "id": "stone_seat",
+      "kind": "photo",
+      "query": "ancient stone seat throne museum public domain",
+      "requirements": "siège royal documenté si possible ; sinon siège abstrait vectoriel ; aucune attribution à un premier roi",
+      "licenseRequirement": "licence réutilisable et attribution consignée ; objet et photographie vérifiés séparément"
+    },
+    {
+      "id": "succession_diagram",
+      "kind": "vector",
+      "query": "original abstract succession family continuity diagram",
+      "requirements": "deux générations graphiques sans noms propres, dates ou généalogie réelle",
+      "licenseRequirement": "licence réutilisable et attribution consignée ; objet et photographie vérifiés séparément"
+    },
+    {
+      "id": "institution_diagram",
+      "kind": "vector",
+      "query": "original persistent modules law taxes army diagram",
+      "requirements": "animation éditoriale de continuité sans nombres ni mécanisme causal supplémentaire",
+      "licenseRequirement": "licence réutilisable et attribution consignée ; objet et photographie vérifiés séparément"
+    },
+    {
+      "id": "government_exterior_video",
+      "kind": "video",
+      "query": "public government institutional building exterior reusable video",
+      "requirements": "édifice actuel, neutre et sourcé ; éviter l’identification du film à l’histoire de France",
+      "licenseRequirement": "licence réutilisable et attribution consignée ; objet et photographie vérifiés séparément"
+    },
+    {
+      "id": "institution_room",
+      "kind": "photo",
+      "query": "empty institutional meeting room assembly public domain",
+      "requirements": "cadre actuel sans personnes, parti ou texte de loi identifiable",
+      "licenseRequirement": "licence réutilisable et attribution consignée ; objet et photographie vérifiés séparément"
+    },
+    {
+      "id": "institution_room_video",
+      "kind": "video",
+      "query": "empty assembly room chairs pan reusable video",
+      "requirements": "mouvement réel si disponible ; sinon profondeur par masque et travelling latéral limité",
+      "licenseRequirement": "licence réutilisable et attribution consignée ; objet et photographie vérifiés séparément"
+    },
+    {
+      "id": "museum_crown",
+      "kind": "photo",
+      "query": "royal crown museum display public domain",
+      "requirements": "objet royal sourcé ; sa culture n’est pas attribuée à la naissance de la royauté ; image de musée comme dans la conclusion parlée",
+      "licenseRequirement": "licence réutilisable et attribution consignée ; objet et photographie vérifiés séparément"
+    }
+  ],
+  "sfxVisualCues": [
+    {
+      "time": 66.494,
+      "cue": "grain discret, si compatible avec la voix"
+    },
+    {
+      "time": 90.98,
+      "cue": "un trait ou froissement papier sur la grille"
+    },
+    {
+      "time": 184.581,
+      "cue": "un mécanisme bref sur le relais vers l’institution"
+    }
+  ],
+  "shots": [
+    {
+      "id": "s01",
+      "start": 0.0,
+      "end": 5.08,
+      "duration": 5.08,
+      "chapter": 1,
+      "clip": "01",
+      "theme": "la question du roi",
+      "type": "typography",
+      "title": "qui a inventé\nles rois ?",
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 120,
+        "subtitleSizePx": 36,
+        "familyRole": "serif",
+        "maxVisibleTextBlocks": 1,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "01",
+        "masterStart": 0.0,
+        "masterEnd": 5.08,
+        "sourceStart": 0.0,
+        "sourceEnd": 5.08,
+        "keyPhrase": "question de l’existence et des privilèges d’un roi",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 0,
+            "start": 0.0,
+            "end": 5.08,
+            "rawAsr": "Quand on iraif les chips plus de 5 secondes, il y des mêmes d'un roi, et profondément"
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 0,
+            "note": "Début très mal reconnu ; hypothèse : « Quand on y réfléchit plus de cinq secondes, l’idée même d’un roi… »"
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "paper_texture",
+        "royal_relief"
+      ],
+      "motion": "ouverture immédiate ; lettres sérif révélées par une réserve de lumière ; une silhouette ordinaire apparaît dans le contreforme du titre ; cadre presque fixe",
+      "transitionOut": "coupe franche sur le mot absurde",
+      "newNarration": false
+    },
+    {
+      "id": "s02",
+      "start": 5.08,
+      "end": 11.14,
+      "duration": 6.06,
+      "chapter": 1,
+      "clip": "01",
+      "theme": "la question du roi",
+      "type": "collage",
+      "title": "un humain.\nun pouvoir immense.",
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 64,
+        "subtitleSizePx": 36,
+        "familyRole": "sans",
+        "maxVisibleTextBlocks": 1,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "01",
+        "masterStart": 5.08,
+        "masterEnd": 11.14,
+        "sourceStart": 5.08,
+        "sourceEnd": 11.559896,
+        "keyPhrase": "un semblable reçoit une position exceptionnelle",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 1,
+            "start": 5.08,
+            "end": 5.960542,
+            "rawAsr": "absurde."
+          },
+          {
+            "index": 2,
+            "start": 5.960542,
+            "end": 11.140104,
+            "rawAsr": "À quel moment de notre histoire des êtres humains ont-ils regardé un de leur semblable"
+          }
+        ],
+        "uncertainty": [],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "royal_statue",
+        "paper_texture"
+      ],
+      "motion": "portrait détouré à taille humaine puis expansion de son ombre ; silhouettes ordinaires gardent leur taille ; déchirure verticale entre deux échelles",
+      "transitionOut": "match cut sur le contour du siège",
+      "newNarration": false
+    },
+    {
+      "id": "s03",
+      "start": 11.14,
+      "end": 15.4,
+      "duration": 4.26,
+      "chapter": 1,
+      "clip": "01",
+      "theme": "la question du roi",
+      "type": "diagram",
+      "title": "palais · armée · impôts",
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 64,
+        "subtitleSizePx": 36,
+        "familyRole": "sans",
+        "maxVisibleTextBlocks": 1,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "01",
+        "masterStart": 11.14,
+        "masterEnd": 15.4,
+        "sourceStart": 11.559896,
+        "sourceEnd": 15.819896,
+        "keyPhrase": "le palais, l’armée et les impôts",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 2,
+            "start": 5.960542,
+            "end": 11.140104,
+            "rawAsr": "À quel moment de notre histoire des êtres humains ont-ils regardé un de leur semblable"
+          },
+          {
+            "index": 3,
+            "start": 11.140104,
+            "end": 17.500104,
+            "rawAsr": "pour lui dire, ces toigts qui auraient le palais, l'armée, les impôts, et un canal direct"
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 3,
+            "note": "« c’est toi qui auras… » est une restitution probable, non vérifiée à l’écoute."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "royal_privilege_icons"
+      ],
+      "motion": "trois pictogrammes arrivent successivement sur un axe ; une seule ligne de texte ; les formes convergent vers le siège, sans chiffres inventés",
+      "transitionOut": "raccord graphique du dernier pictogramme",
+      "newNarration": false
+    },
+    {
+      "id": "s04",
+      "start": 15.4,
+      "end": 18.832354167,
+      "duration": 3.432354167,
+      "chapter": 1,
+      "clip": "01",
+      "theme": "la question du roi",
+      "type": "photo",
+      "title": "et les dieux",
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 64,
+        "subtitleSizePx": 36,
+        "familyRole": "sans",
+        "maxVisibleTextBlocks": 1,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "01",
+        "masterStart": 15.4,
+        "masterEnd": 18.832354167,
+        "sourceStart": 15.819896,
+        "sourceEnd": 19.25225,
+        "keyPhrase": "le lien privilégié avec les dieux",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 3,
+            "start": 11.140104,
+            "end": 17.500104,
+            "rawAsr": "pour lui dire, ces toigts qui auraient le palais, l'armée, les impôts, et un canal direct"
+          },
+          {
+            "index": 4,
+            "start": 17.500104,
+            "end": 18.300104,
+            "rawAsr": "avec les dieux."
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 3,
+            "note": "« c’est toi qui auras… » est une restitution probable, non vérifiée à l’écoute."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "royal_relief"
+      ],
+      "motion": "relief en plein cadre ; léger balayage latéral de lumière et masque de détail ; pas de zoom automatique répété",
+      "transitionOut": "coupe de texture pierre vers paysage",
+      "newNarration": false
+    },
+    {
+      "id": "s05",
+      "start": 18.832354167,
+      "end": 23.523020833,
+      "duration": 4.690666666,
+      "chapter": 2,
+      "clip": "02",
+      "theme": "la possibilité de partir",
+      "type": "video",
+      "title": "avant les rois",
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 72,
+        "subtitleSizePx": 36,
+        "familyRole": "sans",
+        "maxVisibleTextBlocks": 1,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "02",
+        "masterStart": 18.832354167,
+        "masterEnd": 23.523020833,
+        "sourceStart": 0.0,
+        "sourceEnd": 4.690667,
+        "keyPhrase": "le récit revient aux groupes humains sans roi",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 0,
+            "start": 18.832354,
+            "end": 22.132354,
+            "rawAsr": "Pendant la quasi-totalité de l'existence de notre espèce,"
+          },
+          {
+            "index": 1,
+            "start": 22.132354,
+            "end": 23.523021,
+            "rawAsr": "nous n'avions pas de roi."
+          }
+        ],
+        "uncertainty": [],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "open_landscape_video"
+      ],
+      "motion": "paysage ample et mouvement réel ; petits signes humains abstraits se déplacent ensemble ; aucune reconstitution photographique présentée comme archive",
+      "transitionOut": "raccord du déplacement latéral",
+      "newNarration": false
+    },
+    {
+      "id": "s06",
+      "start": 23.523020833,
+      "end": 29.0015625,
+      "duration": 5.478541667,
+      "chapter": 2,
+      "clip": "02",
+      "theme": "la possibilité de partir",
+      "type": "collage",
+      "title": null,
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 64,
+        "subtitleSizePx": 36,
+        "familyRole": "sans",
+        "maxVisibleTextBlocks": 0,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "02",
+        "masterStart": 23.523020833,
+        "masterEnd": 29.0015625,
+        "sourceStart": 5.161458,
+        "sourceEnd": 10.64,
+        "keyPhrase": "le groupe et l’individu qui prend trop de place",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 1,
+            "start": 22.132354,
+            "end": 23.523021,
+            "rawAsr": "nous n'avions pas de roi."
+          },
+          {
+            "index": 2,
+            "start": 23.523021,
+            "end": 29.001563,
+            "rawAsr": "Dans une tribune de chasseur queilleurs, si un individu commence à se prendre pour un tirant,"
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 2,
+            "note": "Erreurs probables : tribu, chasseurs-cueilleurs, tyran."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "human_silhouettes",
+        "paper_texture"
+      ],
+      "motion": "silhouettes sur fragments de papier ; un individu se détache et grossit légèrement, le reste du groupe demeure lisible",
+      "transitionOut": "coupe sur la rupture de l’alignement",
+      "newNarration": false
+    },
+    {
+      "id": "s07",
+      "start": 29.0015625,
+      "end": 34.8,
+      "duration": 5.7984375,
+      "chapter": 2,
+      "clip": "02",
+      "theme": "la possibilité de partir",
+      "type": "diagram",
+      "title": "le groupe peut refuser",
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 64,
+        "subtitleSizePx": 36,
+        "familyRole": "sans",
+        "maxVisibleTextBlocks": 1,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "02",
+        "masterStart": 29.0015625,
+        "masterEnd": 34.8,
+        "sourceStart": 10.64,
+        "sourceEnd": 16.438437,
+        "keyPhrase": "dérision, abandon et départ comme réponses du groupe",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 2,
+            "start": 23.523021,
+            "end": 29.001563,
+            "rawAsr": "Dans une tribune de chasseur queilleurs, si un individu commence à se prendre pour un tirant,"
+          },
+          {
+            "index": 3,
+            "start": 29.001563,
+            "end": 31.541563,
+            "rawAsr": "le groupe avait une arme redoutable."
+          },
+          {
+            "index": 4,
+            "start": 31.541563,
+            "end": 35.594833,
+            "rawAsr": "La Dérison, l'abandon, ou simplement le départ."
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 2,
+            "note": "Erreurs probables : tribu, chasseurs-cueilleurs, tyran."
+          },
+          {
+            "segmentIndex": 4,
+            "note": "Dérision probable."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "human_silhouettes"
+      ],
+      "motion": "les mêmes silhouettes se dispersent loin du centre ; aucune urne ou institution démocratique moderne ; la domination perd ses liens",
+      "transitionOut": "sortie du groupe par la droite",
+      "newNarration": false
+    },
+    {
+      "id": "s08",
+      "start": 34.8,
+      "end": 39.5,
+      "duration": 4.7,
+      "chapter": 2,
+      "clip": "02",
+      "theme": "la possibilité de partir",
+      "type": "video",
+      "title": "la possibilité de partir",
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 64,
+        "subtitleSizePx": 36,
+        "familyRole": "sans",
+        "maxVisibleTextBlocks": 1,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "02",
+        "masterStart": 34.8,
+        "masterEnd": 39.5,
+        "sourceStart": 16.438437,
+        "sourceEnd": 22.203,
+        "keyPhrase": "on ne retient pas aisément un groupe qui peut partir",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 4,
+            "start": 31.541563,
+            "end": 35.594833,
+            "rawAsr": "La Dérison, l'abandon, ou simplement le départ."
+          },
+          {
+            "index": 5,
+            "start": 35.594833,
+            "end": 38.897,
+            "rawAsr": "On ne peut pas le verder d'un poe sur des gens qui sont fuits dans la forêt."
+          },
+          {
+            "index": 6,
+            "start": 38.897,
+            "end": 44.997,
+            "rawAsr": "Mais alors, comment est-on passé de la liberté de nomade à l'obligation de saje-nousillée?"
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 4,
+            "note": "Dérision probable."
+          },
+          {
+            "segmentIndex": 5,
+            "note": "Restitution probable : « lever des impôts sur des gens qui s’enfuient dans la forêt »."
+          },
+          {
+            "segmentIndex": 6,
+            "note": "Restitution probable : « de la liberté des nomades à l’obligation de s’agenouiller »."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "forest_video"
+      ],
+      "motion": "chemin ou lisière filmée ; passage d’ombre au premier plan ; trajectoire latérale discrète qui se poursuit hors champ",
+      "transitionOut": "coupe respirée",
+      "newNarration": false
+    },
+    {
+      "id": "s09",
+      "start": 39.5,
+      "end": 45.091291667,
+      "duration": 5.591291667,
+      "chapter": 2,
+      "clip": "02",
+      "theme": "la possibilité de partir",
+      "type": "typography",
+      "title": "la liberté de partir",
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 64,
+        "subtitleSizePx": 36,
+        "familyRole": "serif",
+        "maxVisibleTextBlocks": 1,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "02",
+        "masterStart": 39.5,
+        "masterEnd": 45.091291667,
+        "sourceStart": 22.203,
+        "sourceEnd": 27.794292,
+        "keyPhrase": "transition vers la question de la sédentarité",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 6,
+            "start": 38.897,
+            "end": 44.997,
+            "rawAsr": "Mais alors, comment est-on passé de la liberté de nomade à l'obligation de saje-nousillée?"
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 6,
+            "note": "Restitution probable : « de la liberté des nomades à l’obligation de s’agenouiller »."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "paper_texture"
+      ],
+      "motion": "expression maintenue pendant que la trajectoire de sortie se transforme en quadrillage de champs ; aucune citation de la dernière phrase mal reconnue",
+      "transitionOut": "morphing de ligne vers parcelle",
+      "newNarration": false
+    },
+    {
+      "id": "s10",
+      "start": 45.091291667,
+      "end": 50.0,
+      "duration": 4.908708333,
+      "chapter": 3,
+      "clip": "03",
+      "theme": "la réserve accumulable",
+      "type": "collage",
+      "title": "la richesse se stocke",
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 72,
+        "subtitleSizePx": 36,
+        "familyRole": "sans",
+        "maxVisibleTextBlocks": 1,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "03",
+        "masterStart": 45.091291667,
+        "masterEnd": 50.0,
+        "sourceStart": 0.0,
+        "sourceEnd": 5.247687,
+        "keyPhrase": "agriculture et sédentarité changent la nature de la richesse",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 0,
+            "start": 45.091292,
+            "end": 48.745979,
+            "rawAsr": "Aux qu'un homme décavère, n'a déposé de brevets pour une couronne."
+          },
+          {
+            "index": 1,
+            "start": 48.952313,
+            "end": 53.112313,
+            "rawAsr": "La royauté n'est pas né du ni-démagique, mais d'une collision."
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 0,
+            "note": "Restitution probable : « Aucun homme des cavernes n’a déposé de brevet pour une couronne »."
+          },
+          {
+            "segmentIndex": 1,
+            "note": "« d’une idée magique » probable."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "grain_macro",
+        "field_video"
+      ],
+      "motion": "grains en très gros plan devant une parcelle ; une surface mobile devient une réserve fixe ; transition matérielle plutôt qu’un nouveau récit",
+      "transitionOut": "raccord sur une ligne de champ",
+      "newNarration": false
+    },
+    {
+      "id": "s11",
+      "start": 50.0,
+      "end": 55.5,
+      "duration": 5.5,
+      "chapter": 3,
+      "clip": "03",
+      "theme": "la réserve accumulable",
+      "type": "video",
+      "title": "cultiver",
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 64,
+        "subtitleSizePx": 36,
+        "familyRole": "sans",
+        "maxVisibleTextBlocks": 1,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "03",
+        "masterStart": 50.0,
+        "masterEnd": 55.5,
+        "sourceStart": 5.247687,
+        "sourceEnd": 10.747687,
+        "keyPhrase": "l’agriculture et la sédentarité",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 1,
+            "start": 48.952313,
+            "end": 53.112313,
+            "rawAsr": "La royauté n'est pas né du ni-démagique, mais d'une collision."
+          },
+          {
+            "index": 2,
+            "start": 53.512313,
+            "end": 56.031312,
+            "rawAsr": "La agriculture et la sédentarité."
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 1,
+            "note": "« d’une idée magique » probable."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "field_video"
+      ],
+      "motion": "mouvement réel de céréales ; mise au point ou vent ; pas de datation attribuée à cette image contemporaine illustrative",
+      "transitionOut": "coupe de mouvement",
+      "newNarration": false
+    },
+    {
+      "id": "s12",
+      "start": 55.5,
+      "end": 60.494333333,
+      "duration": 4.994333333,
+      "chapter": 3,
+      "clip": "03",
+      "theme": "la réserve accumulable",
+      "type": "diagram",
+      "title": "stocker",
+      "subtitle": "grain et troupeaux",
+      "textStyle": {
+        "titleSizePx": 64,
+        "subtitleSizePx": 36,
+        "familyRole": "sans",
+        "maxVisibleTextBlocks": 2,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "03",
+        "masterStart": 55.5,
+        "masterEnd": 60.494333333,
+        "sourceStart": 10.747687,
+        "sourceEnd": 17.119979,
+        "keyPhrase": "la culture, le stockage et les troupeaux rendent la richesse accumulable",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 2,
+            "start": 53.512313,
+            "end": 56.031312,
+            "rawAsr": "La agriculture et la sédentarité."
+          },
+          {
+            "index": 3,
+            "start": 56.100437,
+            "end": 60.380437,
+            "rawAsr": "Donc, nous étions de nomad, la richesse s'éteniait avec la personne."
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 3,
+            "note": "« Tant que nous étions des nomades… » probable ; fin de phrase à vérifier."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "storage_icons"
+      ],
+      "motion": "récipient schématique qui se remplit ; silhouette d’animal à côté ; icônes seulement, sans valeurs ni parts quantitatives",
+      "transitionOut": "masque de récipient vers gros plan",
+      "newNarration": false
+    },
+    {
+      "id": "s13",
+      "start": 60.494333333,
+      "end": 66.494333333,
+      "duration": 6.0,
+      "chapter": 3,
+      "clip": "03",
+      "theme": "la réserve accumulable",
+      "type": "photo",
+      "title": null,
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 64,
+        "subtitleSizePx": 36,
+        "familyRole": "sans",
+        "maxVisibleTextBlocks": 0,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "03",
+        "masterStart": 60.494333333,
+        "masterEnd": 66.494333333,
+        "sourceStart": 17.119979,
+        "sourceEnd": 23.119979,
+        "keyPhrase": "les biens deviennent des réserves visibles",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 4,
+            "start": 60.494354,
+            "end": 64.694354,
+            "rawAsr": "Mais d'élinstant où l'on cultive des champs, où l'on stock du grain,"
+          },
+          {
+            "index": 5,
+            "start": 64.694354,
+            "end": 66.494354,
+            "rawAsr": "et où l'on élève des troupeaux,"
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 4,
+            "note": "« dès l’instant » probable."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "grain_macro",
+        "storage_photo"
+      ],
+      "motion": "photo de grain et contenant ; recadrage par bande plutôt qu’un zoom ; un contour vectoriel rend la réserve dénombrable",
+      "transitionOut": "coupe nette à la notion de richesse",
+      "newNarration": false
+    },
+    {
+      "id": "s14",
+      "start": 66.494333333,
+      "end": 71.596270833,
+      "duration": 5.1019375,
+      "chapter": 3,
+      "clip": "03",
+      "theme": "la réserve accumulable",
+      "type": "typography",
+      "title": "mesurable.\naccumulable.\nvolable.",
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 64,
+        "subtitleSizePx": 36,
+        "familyRole": "serif",
+        "maxVisibleTextBlocks": 1,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 3
+      },
+      "voice": {
+        "clip": "03",
+        "masterStart": 66.494333333,
+        "masterEnd": 71.596270833,
+        "sourceStart": 23.119979,
+        "sourceEnd": 28.221917,
+        "keyPhrase": "les trois propriétés sont effectivement énoncées",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 5,
+            "start": 64.694354,
+            "end": 66.494354,
+            "rawAsr": "et où l'on élève des troupeaux,"
+          },
+          {
+            "index": 6,
+            "start": 66.494354,
+            "end": 71.534354,
+            "rawAsr": "la richesse devient mesureable, accumulable et volable."
+          }
+        ],
+        "uncertainty": [],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "grain_macro"
+      ],
+      "motion": "les trois mots d’un même titre se révèlent au rythme de la phrase ; les grains s’accumulent puis une partie sort du cadre, sans donnée inventée",
+      "transitionOut": "coupe sur le retrait des grains",
+      "newNarration": false
+    },
+    {
+      "id": "s15",
+      "start": 71.596270833,
+      "end": 76.5,
+      "duration": 4.903729167,
+      "chapter": 4,
+      "clip": "04",
+      "theme": "le coût du départ",
+      "type": "collage",
+      "title": "partir a un prix",
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 72,
+        "subtitleSizePx": 36,
+        "familyRole": "sans",
+        "maxVisibleTextBlocks": 1,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "04",
+        "masterStart": 71.596270833,
+        "masterEnd": 76.5,
+        "sourceStart": 0.0,
+        "sourceEnd": 5.391688,
+        "keyPhrase": "le départ est devenu coûteux quand les biens restent sur place",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 0,
+            "start": 71.596271,
+            "end": 74.322396,
+            "rawAsr": "Et surtout, partir n'est plus gratuit."
+          },
+          {
+            "index": 1,
+            "start": 74.322396,
+            "end": 76.108313,
+            "rawAsr": "Vous récolte son là."
+          },
+          {
+            "index": 2,
+            "start": 76.108313,
+            "end": 77.108313,
+            "rawAsr": "Vous mesons son là."
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 1,
+            "note": "« Vos récoltes sont là » probable."
+          },
+          {
+            "segmentIndex": 2,
+            "note": "« Vos maisons sont là » probable."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "field_video",
+        "settlement_landscape"
+      ],
+      "motion": "récolte et habitat en deux plans de profondeur ; une trajectoire d’éloignement tire sur les attaches graphiques du lieu",
+      "transitionOut": "raccord sur la parcelle fixe",
+      "newNarration": false
+    },
+    {
+      "id": "s16",
+      "start": 76.5,
+      "end": 82.6,
+      "duration": 6.1,
+      "chapter": 4,
+      "clip": "04",
+      "theme": "le coût du départ",
+      "type": "diagram",
+      "title": "une adresse fixe",
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 64,
+        "subtitleSizePx": 36,
+        "familyRole": "sans",
+        "maxVisibleTextBlocks": 1,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "04",
+        "masterStart": 76.5,
+        "masterEnd": 82.6,
+        "sourceStart": 5.391688,
+        "sourceEnd": 12.091875,
+        "keyPhrase": "maisons, récoltes et installation dans un lieu",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 2,
+            "start": 76.108313,
+            "end": 77.108313,
+            "rawAsr": "Vous mesons son là."
+          },
+          {
+            "index": 3,
+            "start": 77.108313,
+            "end": 79.108313,
+            "rawAsr": "Vous en sait, ils sont tenteurs."
+          },
+          {
+            "index": 4,
+            "start": 79.108313,
+            "end": 84.508125,
+            "rawAsr": "En ce moment dans des villages, l'ambition humaine a enfin trouvé une adresse fixe."
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 2,
+            "note": "« Vos maisons sont là » probable."
+          },
+          {
+            "segmentIndex": 3,
+            "note": "Probablement une référence aux ancêtres enterrés sur place ; mots exacts non établis."
+          },
+          {
+            "segmentIndex": 4,
+            "note": "Début de phrase incertain ; l’adresse fixe de l’ambition humaine est clairement reconnue."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "settlement_diagram"
+      ],
+      "motion": "plan de village volontairement schématique vu du dessus ; habitations et champs restent tandis qu’un repère humain hésite à partir ; pas de tombe reconstruite",
+      "transitionOut": "fondu court par aplats",
+      "newNarration": false
+    },
+    {
+      "id": "s17",
+      "start": 82.6,
+      "end": 88.6,
+      "duration": 6.0,
+      "chapter": 4,
+      "clip": "04",
+      "theme": "le coût du départ",
+      "type": "collage",
+      "title": null,
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 64,
+        "subtitleSizePx": 36,
+        "familyRole": "sans",
+        "maxVisibleTextBlocks": 0,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "04",
+        "masterStart": 82.6,
+        "masterEnd": 88.6,
+        "sourceStart": 12.091875,
+        "sourceEnd": 18.620167,
+        "keyPhrase": "l’ambition humaine trouve une adresse fixe ; les rois n’apparaissent pas d’un coup",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 4,
+            "start": 79.108313,
+            "end": 84.508125,
+            "rawAsr": "En ce moment dans des villages, l'ambition humaine a enfin trouvé une adresse fixe."
+          },
+          {
+            "index": 5,
+            "start": 84.508125,
+            "end": 87.979833,
+            "rawAsr": "La agriculture n'a pas créé les rois d'un coup."
+          },
+          {
+            "index": 6,
+            "start": 87.979833,
+            "end": 90.979833,
+            "rawAsr": "Elle a créé quelque chose d'encore plus redoutable."
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 4,
+            "note": "Début de phrase incertain ; l’adresse fixe de l’ambition humaine est clairement reconnue."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "settlement_landscape",
+        "paper_texture"
+      ],
+      "motion": "image de lieu en large ; fines couches de parcelles apparaissent à l’arrière-plan ; respiration sans nouvelle légende historique",
+      "transitionOut": "raccord de lignes vers une grille",
+      "newNarration": false
+    },
+    {
+      "id": "s18",
+      "start": 88.6,
+      "end": 93.542291667,
+      "duration": 4.942291667,
+      "chapter": 4,
+      "clip": "04",
+      "theme": "le coût du départ",
+      "type": "diagram",
+      "title": "le premier tableur",
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 64,
+        "subtitleSizePx": 36,
+        "familyRole": "sans",
+        "maxVisibleTextBlocks": 1,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "04",
+        "masterStart": 88.6,
+        "masterEnd": 93.542291667,
+        "sourceStart": 18.620167,
+        "sourceEnd": 23.562458,
+        "keyPhrase": "la métaphore du premier tableur dans la voix off",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 6,
+            "start": 87.979833,
+            "end": 90.979833,
+            "rawAsr": "Elle a créé quelque chose d'encore plus redoutable."
+          },
+          {
+            "index": 7,
+            "start": 90.979833,
+            "end": 92.979833,
+            "rawAsr": "Le premier tableur de l'histoire."
+          }
+        ],
+        "uncertainty": [],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "accounting_grid",
+        "clay_admin"
+      ],
+      "motion": "grille dessinée dans le papier ; marques de grain deviennent des cases ; création graphique explicite, jamais faux document archéologique",
+      "transitionOut": "raccord de case vers ration",
+      "newNarration": false
+    },
+    {
+      "id": "s19",
+      "start": 93.542291667,
+      "end": 98.782291667,
+      "duration": 5.24,
+      "chapter": 5,
+      "clip": "05",
+      "theme": "coordonner et protéger",
+      "type": "diagram",
+      "title": "il faut coordonner",
+      "subtitle": "grain contre travail",
+      "textStyle": {
+        "titleSizePx": 72,
+        "subtitleSizePx": 36,
+        "familyRole": "sans",
+        "maxVisibleTextBlocks": 2,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "05",
+        "masterStart": 93.542291667,
+        "masterEnd": 98.782291667,
+        "sourceStart": 0.0,
+        "sourceEnd": 5.24,
+        "keyPhrase": "un surplus permet de prêter du grain contre du travail",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 0,
+            "start": 93.542292,
+            "end": 98.782292,
+            "rawAsr": "Quand une famille a une meilleure écoltue, elle peut prêter du grain contre du travail."
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 0,
+            "note": "« meilleure récolte » probable."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "grain_exchange_icons"
+      ],
+      "motion": "circuit court entre réserve et mains ; simple transfert de signes ; aucun taux ni prix fictif",
+      "transitionOut": "coupe sur la trace de dette",
+      "newNarration": false
+    },
+    {
+      "id": "s20",
+      "start": 98.782291667,
+      "end": 104.3,
+      "duration": 5.517708333,
+      "chapter": 5,
+      "clip": "05",
+      "theme": "coordonner et protéger",
+      "type": "photo",
+      "title": "alliances et dettes",
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 64,
+        "subtitleSizePx": 36,
+        "familyRole": "sans",
+        "maxVisibleTextBlocks": 1,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "05",
+        "masterStart": 98.782291667,
+        "masterEnd": 104.3,
+        "sourceStart": 5.24,
+        "sourceEnd": 11.437354,
+        "keyPhrase": "alliances et dettes durables",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 1,
+            "start": 98.782292,
+            "end": 102.062646,
+            "rawAsr": "Fogé des alliances, écrits des d'êtes durable."
+          },
+          {
+            "index": 2,
+            "start": 102.062646,
+            "end": 106.382646,
+            "rawAsr": "Vers 3.200 avant notre haire, dans le sud de la Mesopotamie,"
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 1,
+            "note": "« forger des alliances, créer des dettes durables » probable."
+          },
+          {
+            "segmentIndex": 2,
+            "note": "Date reconnue : vers 3200 avant notre ère ; pas de vérification historique indépendante."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "clay_admin"
+      ],
+      "motion": "détail de tablette administrative authentifiée ; découpage horizontal révèle les marques ; date exacte de l’objet conservée dans les sources, sans l’assimiler à la date du récit",
+      "transitionOut": "raccord géographique par tracé",
+      "newNarration": false
+    },
+    {
+      "id": "s21",
+      "start": 104.3,
+      "end": 110.622666667,
+      "duration": 6.322666667,
+      "chapter": 5,
+      "clip": "05",
+      "theme": "coordonner et protéger",
+      "type": "map",
+      "title": "uruk",
+      "subtitle": "vers 3200 av. n. è.",
+      "textStyle": {
+        "titleSizePx": 64,
+        "subtitleSizePx": 36,
+        "familyRole": "sans",
+        "maxVisibleTextBlocks": 2,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "05",
+        "masterStart": 104.3,
+        "masterEnd": 110.622666667,
+        "sourceStart": 11.437354,
+        "sourceEnd": 17.760021,
+        "keyPhrase": "le récit situe le cas d’Uruk dans le sud de la Mésopotamie vers 3200 avant notre ère",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 2,
+            "start": 102.062646,
+            "end": 106.382646,
+            "rawAsr": "Vers 3.200 avant notre haire, dans le sud de la Mesopotamie,"
+          },
+          {
+            "index": 3,
+            "start": 106.382646,
+            "end": 110.622646,
+            "rawAsr": "la Cité du Rouque, rassemble des dizaines de milliers d'un connu."
+          },
+          {
+            "index": 4,
+            "start": 110.622646,
+            "end": 115.422646,
+            "rawAsr": "Pour gérer l'eau, les rations et les conflits, il faut coordonner."
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 2,
+            "note": "Date reconnue : vers 3200 avant notre ère ; pas de vérification historique indépendante."
+          },
+          {
+            "segmentIndex": 3,
+            "note": "Uruk probable ; « dizaines de milliers d’inconnus » probable."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "uruk_map"
+      ],
+      "motion": "une carte régionale se dessine ; repère unique à Uruk ; fleuves comme contexte ; aucune frontière étatique ancienne ou population chiffrée ajoutée",
+      "transitionOut": "raccord des fleuves vers réseau",
+      "newNarration": false
+    },
+    {
+      "id": "s22",
+      "start": 110.622666667,
+      "end": 115.422666667,
+      "duration": 4.8,
+      "chapter": 5,
+      "clip": "05",
+      "theme": "coordonner et protéger",
+      "type": "diagram",
+      "title": "eau · rations · conflits",
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 64,
+        "subtitleSizePx": 36,
+        "familyRole": "sans",
+        "maxVisibleTextBlocks": 1,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "05",
+        "masterStart": 110.622666667,
+        "masterEnd": 115.422666667,
+        "sourceStart": 17.760021,
+        "sourceEnd": 22.560021,
+        "keyPhrase": "coordonner l’eau, les rations et les conflits",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 4,
+            "start": 110.622646,
+            "end": 115.422646,
+            "rawAsr": "Pour gérer l'eau, les rations et les conflits, il faut coordonner."
+          },
+          {
+            "index": 5,
+            "start": 115.422646,
+            "end": 118.382646,
+            "rawAsr": "Et face aux pières qui convoyent les stocks de grain,"
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 5,
+            "note": "« pillards qui convoitent » probable."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "coordination_icons"
+      ],
+      "motion": "flux d’eau et réserve rejoignent un nœud central ; trois pictogrammes lisibles ; aucune quantité ou causalité historique supplémentaire affichée",
+      "transitionOut": "coupe à la menace extérieure",
+      "newNarration": false
+    },
+    {
+      "id": "s23",
+      "start": 115.422666667,
+      "end": 120.839791667,
+      "duration": 5.417125,
+      "chapter": 5,
+      "clip": "05",
+      "theme": "coordonner et protéger",
+      "type": "photo",
+      "title": "des chefs de guerre",
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 64,
+        "subtitleSizePx": 36,
+        "familyRole": "sans",
+        "maxVisibleTextBlocks": 1,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "05",
+        "masterStart": 115.422666667,
+        "masterEnd": 120.839791667,
+        "sourceStart": 22.560021,
+        "sourceEnd": 27.977146,
+        "keyPhrase": "défense des stocks et chefs de guerre permanents",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 5,
+            "start": 115.422646,
+            "end": 118.382646,
+            "rawAsr": "Et face aux pières qui convoyent les stocks de grain,"
+          },
+          {
+            "index": 6,
+            "start": 118.382646,
+            "end": 120.839646,
+            "rawAsr": "il faut des chefs de guerre permanent."
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 5,
+            "note": "« pillards qui convoitent » probable."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "mesopotamian_war_panel"
+      ],
+      "motion": "panneau ancien de scène militaire ; balayage de détail sur une rangée de figures ; l’objet illustre le thème et ne prouve pas visuellement une date de 3200",
+      "transitionOut": "coupe franche sur jonction administration et force",
+      "newNarration": false
+    },
+    {
+      "id": "s24",
+      "start": 120.839791667,
+      "end": 126.5,
+      "duration": 5.660208333,
+      "chapter": 6,
+      "clip": "06",
+      "theme": "justifier les privilèges",
+      "type": "collage",
+      "title": "justifier le sommet",
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 72,
+        "subtitleSizePx": 36,
+        "familyRole": "sans",
+        "maxVisibleTextBlocks": 1,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "06",
+        "masterStart": 120.839791667,
+        "masterEnd": 126.5,
+        "sourceStart": 0.0,
+        "sourceEnd": 6.093729,
+        "keyPhrase": "administration et violence organisée, puis justification du pouvoir",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 0,
+            "start": 120.839792,
+            "end": 124.559792,
+            "rawAsr": "La Administration est la violence organisée, venait de sonir."
+          },
+          {
+            "index": 1,
+            "start": 124.766271,
+            "end": 127.086271,
+            "rawAsr": "La pyramide sociale était construite,"
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 0,
+            "note": "« L’administration et la violence organisée venaient de s’unir » probable."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "clay_admin",
+        "mesopotamian_war_panel"
+      ],
+      "motion": "tablette et rang militaire avancent depuis deux côtés, puis laissent vide le centre supérieur ; pas de pyramide égyptienne utilisée pour la hiérarchie",
+      "transitionOut": "raccord vers le sommet vide",
+      "newNarration": false
+    },
+    {
+      "id": "s25",
+      "start": 126.5,
+      "end": 132.422,
+      "duration": 5.922,
+      "chapter": 6,
+      "clip": "06",
+      "theme": "justifier les privilèges",
+      "type": "diagram",
+      "title": "un sommet à justifier",
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 64,
+        "subtitleSizePx": 36,
+        "familyRole": "sans",
+        "maxVisibleTextBlocks": 1,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "06",
+        "masterStart": 126.5,
+        "masterEnd": 132.422,
+        "sourceStart": 6.093729,
+        "sourceEnd": 12.600125,
+        "keyPhrase": "la pyramide sociale a un sommet qu’il faut justifier",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 1,
+            "start": 124.766271,
+            "end": 127.086271,
+            "rawAsr": "La pyramide sociale était construite,"
+          },
+          {
+            "index": 2,
+            "start": 127.286271,
+            "end": 129.846271,
+            "rawAsr": "il ne manquait plus qu'à justifier son sommet."
+          },
+          {
+            "index": 3,
+            "start": 129.981875,
+            "end": 132.061875,
+            "rawAsr": "On peut conquérir une ville par la lance,"
+          },
+          {
+            "index": 4,
+            "start": 132.421875,
+            "end": 135.421875,
+            "rawAsr": "mais on ne maintient pas une dynasty par les armes seuls."
+          }
+        ],
+        "uncertainty": [],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "hierarchy_diagram"
+      ],
+      "motion": "triangle social abstrait fait de strates ; le sommet reste mis en évidence sans donner de noms, parts ou classes non énoncées",
+      "transitionOut": "coupe sèche sur la lance",
+      "newNarration": false
+    },
+    {
+      "id": "s26",
+      "start": 132.422,
+      "end": 138.9,
+      "duration": 6.478,
+      "chapter": 6,
+      "clip": "06",
+      "theme": "justifier les privilèges",
+      "type": "photo",
+      "title": "la force ne suffit pas",
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 64,
+        "subtitleSizePx": 36,
+        "familyRole": "sans",
+        "maxVisibleTextBlocks": 1,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "06",
+        "masterStart": 132.422,
+        "masterEnd": 138.9,
+        "sourceStart": 12.600125,
+        "sourceEnd": 19.078125,
+        "keyPhrase": "conquérir une ville ne suffit pas à maintenir une dynastie",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 4,
+            "start": 132.421875,
+            "end": 135.421875,
+            "rawAsr": "mais on ne maintient pas une dynasty par les armes seuls."
+          },
+          {
+            "index": 5,
+            "start": 135.741875,
+            "end": 138.301875,
+            "rawAsr": "Un moment, les gens pose la question qui fâche."
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 5,
+            "note": "« À un moment… » probable."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "royal_relief",
+        "mesopotamian_war_panel"
+      ],
+      "motion": "détail de geste militaire puis espace vide ; deux recadrages seulement ; éviter toute scène médiévale ou française",
+      "transitionOut": "raccord sur un regard ou une main",
+      "newNarration": false
+    },
+    {
+      "id": "s27",
+      "start": 138.9,
+      "end": 144.5,
+      "duration": 5.6,
+      "chapter": 6,
+      "clip": "06",
+      "theme": "justifier les privilèges",
+      "type": "typography",
+      "title": "pourquoi cette famille ?",
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 64,
+        "subtitleSizePx": 36,
+        "familyRole": "serif",
+        "maxVisibleTextBlocks": 1,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "06",
+        "masterStart": 138.9,
+        "masterEnd": 144.5,
+        "sourceStart": 19.078125,
+        "sourceEnd": 24.678125,
+        "keyPhrase": "question de la famille privilégiée et de ceux qui portent les pierres",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 6,
+            "start": 138.901875,
+            "end": 140.821875,
+            "rawAsr": "Pourquoi c'est la famille qui a tout,"
+          },
+          {
+            "index": 7,
+            "start": 141.061875,
+            "end": 143.301875,
+            "rawAsr": "et pourquoi c'est moi qui porte les pierres."
+          },
+          {
+            "index": 8,
+            "start": 143.981875,
+            "end": 147.181875,
+            "rawAsr": "C'est ici qu'intervient le coup de génie des premiers dirigeants,"
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 6,
+            "note": "« Pourquoi c’est ta famille qui a tout ? » probable ; pronom incertain."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "paper_texture"
+      ],
+      "motion": "question en masse typographique sur fond sombre ; apparition unique ; pas de faux verbatim sur le pronom mal reconnu",
+      "transitionOut": "coupe sur le poids matériel",
+      "newNarration": false
+    },
+    {
+      "id": "s28",
+      "start": 144.5,
+      "end": 149.784333333,
+      "duration": 5.284333333,
+      "chapter": 6,
+      "clip": "06",
+      "theme": "justifier les privilèges",
+      "type": "collage",
+      "title": null,
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 64,
+        "subtitleSizePx": 36,
+        "familyRole": "sans",
+        "maxVisibleTextBlocks": 0,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "06",
+        "masterStart": 144.5,
+        "masterEnd": 149.784333333,
+        "sourceStart": 24.678125,
+        "sourceEnd": 29.962458,
+        "keyPhrase": "la narration bascule vers la sacralisation de l’autorité",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 8,
+            "start": 143.981875,
+            "end": 147.181875,
+            "rawAsr": "C'est ici qu'intervient le coup de génie des premiers dirigeants,"
+          },
+          {
+            "index": 9,
+            "start": 147.581875,
+            "end": 149.421875,
+            "rawAsr": "s'acraliser l'autorité."
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 9,
+            "note": "« sacraliser l’autorité » probable."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "stone_work",
+        "royal_statue"
+      ],
+      "motion": "pierre au premier plan et silhouette royale en arrière ; le lien de force se transforme en halo abstrait ; pas de citation attribuée à un souverain",
+      "transitionOut": "raccord du halo vers motif sacré",
+      "newNarration": false
+    },
+    {
+      "id": "s29",
+      "start": 149.784333333,
+      "end": 155.0,
+      "duration": 5.215666667,
+      "chapter": 7,
+      "clip": "07",
+      "theme": "rendre le pouvoir sacré",
+      "type": "photo",
+      "title": "l’autorité devient sacrée",
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 72,
+        "subtitleSizePx": 36,
+        "familyRole": "sans",
+        "maxVisibleTextBlocks": 1,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "07",
+        "masterStart": 149.784333333,
+        "masterEnd": 155.0,
+        "sourceStart": 0.0,
+        "sourceEnd": 5.215667,
+        "keyPhrase": "le roi mésopotamien dépasse la fonction de général",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 0,
+            "start": 149.784333,
+            "end": 153.264333,
+            "rawAsr": "En mes opotamie, le roin n'est pas seulement un général."
+          },
+          {
+            "index": 1,
+            "start": 153.264333,
+            "end": 156.317896,
+            "rawAsr": "Il se proclame \"dergée désignée par les dieux\"."
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 0,
+            "note": "Mésopotamie et roi clairement visés malgré erreurs orthographiques."
+          },
+          {
+            "segmentIndex": 1,
+            "note": "« berger désigné par les dieux » probable."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "royal_statue"
+      ],
+      "motion": "statue ou relief royal mésopotamien avec origine vérifiée ; travelling de détail court ; grande réserve pour le titre",
+      "transitionOut": "coupe par superposition de motifs",
+      "newNarration": false
+    },
+    {
+      "id": "s30",
+      "start": 155.0,
+      "end": 160.5,
+      "duration": 5.5,
+      "chapter": 7,
+      "clip": "07",
+      "theme": "rendre le pouvoir sacré",
+      "type": "collage",
+      "title": "désigné par les dieux",
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 64,
+        "subtitleSizePx": 36,
+        "familyRole": "sans",
+        "maxVisibleTextBlocks": 1,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "07",
+        "masterStart": 155.0,
+        "masterEnd": 160.5,
+        "sourceStart": 5.215667,
+        "sourceEnd": 11.18625,
+        "keyPhrase": "la légitimation divine est explicitement formulée",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 1,
+            "start": 153.264333,
+            "end": 156.317896,
+            "rawAsr": "Il se proclame \"dergée désignée par les dieux\"."
+          },
+          {
+            "index": 2,
+            "start": 156.317896,
+            "end": 161.51375,
+            "rawAsr": "Sur les stels et dans les tombs durs, le souverain est représenté deux fois plus grand que"
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 1,
+            "note": "« berger désigné par les dieux » probable."
+          },
+          {
+            "segmentIndex": 2,
+            "note": "Stèles et « tombes d’Ur » probables ; nom propre à réécouter."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "royal_relief",
+        "celestial_motif"
+      ],
+      "motion": "détourage du souverain et motif céleste graphique ; pas de symbole prétendument authentique si sa provenance n’est pas établie",
+      "transitionOut": "raccord vertical sur changement d’échelle",
+      "newNarration": false
+    },
+    {
+      "id": "s31",
+      "start": 160.5,
+      "end": 166.2,
+      "duration": 5.7,
+      "chapter": 7,
+      "clip": "07",
+      "theme": "rendre le pouvoir sacré",
+      "type": "diagram",
+      "title": "rendre le pouvoir visible",
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 64,
+        "subtitleSizePx": 36,
+        "familyRole": "sans",
+        "maxVisibleTextBlocks": 1,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "07",
+        "masterStart": 160.5,
+        "masterEnd": 166.2,
+        "sourceStart": 11.18625,
+        "sourceEnd": 16.88625,
+        "keyPhrase": "le souverain est représenté plus grand que les autres",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 2,
+            "start": 156.317896,
+            "end": 161.51375,
+            "rawAsr": "Sur les stels et dans les tombs durs, le souverain est représenté deux fois plus grand que"
+          },
+          {
+            "index": 3,
+            "start": 161.51375,
+            "end": 162.51375,
+            "rawAsr": "les autres."
+          },
+          {
+            "index": 4,
+            "start": 162.51375,
+            "end": 168.19375,
+            "rawAsr": "Des palais monumentaux et des faits religieuses inscrivent la Hierarchie dans le quotidien."
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 2,
+            "note": "Stèles et « tombes d’Ur » probables ; nom propre à réécouter."
+          },
+          {
+            "segmentIndex": 4,
+            "note": "« fêtes religieuses » probable."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "human_silhouettes",
+        "royal_statue"
+      ],
+      "motion": "comparaison d’échelles de deux silhouettes ; schéma éditorial assumé ; ne pas falsifier les dimensions d’une œuvre originale",
+      "transitionOut": "coupe d’échelle vers architecture",
+      "newNarration": false
+    },
+    {
+      "id": "s32",
+      "start": 166.2,
+      "end": 171.1,
+      "duration": 4.9,
+      "chapter": 7,
+      "clip": "07",
+      "theme": "rendre le pouvoir sacré",
+      "type": "video",
+      "title": null,
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 64,
+        "subtitleSizePx": 36,
+        "familyRole": "sans",
+        "maxVisibleTextBlocks": 0,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "07",
+        "masterStart": 166.2,
+        "masterEnd": 171.1,
+        "sourceStart": 16.88625,
+        "sourceEnd": 21.78625,
+        "keyPhrase": "palais monumentaux et rites inscrivent la hiérarchie dans le quotidien",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 4,
+            "start": 162.51375,
+            "end": 168.19375,
+            "rawAsr": "Des palais monumentaux et des faits religieuses inscrivent la Hierarchie dans le quotidien."
+          },
+          {
+            "index": 5,
+            "start": 168.19375,
+            "end": 172.31375,
+            "rawAsr": "Au bayre roin, ce n'était plus cédé à la force."
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 4,
+            "note": "« fêtes religieuses » probable."
+          },
+          {
+            "segmentIndex": 5,
+            "note": "« Obéir au roi, ce n’était plus céder à la force » probable."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "temple_ruins_video"
+      ],
+      "motion": "vidéo actuelle de ruines documentées ou déplacement latéral construit sur une photographie et ses plans ; aucun faux rituel filmé ; lumière comme mouvement principal",
+      "transitionOut": "ralentissement du rythme visuel",
+      "newNarration": false
+    },
+    {
+      "id": "s33",
+      "start": 171.1,
+      "end": 175.906416667,
+      "duration": 4.806416667,
+      "chapter": 7,
+      "clip": "07",
+      "theme": "rendre le pouvoir sacré",
+      "type": "typography",
+      "title": "l’ordre de l’univers",
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 64,
+        "subtitleSizePx": 36,
+        "familyRole": "serif",
+        "maxVisibleTextBlocks": 1,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "07",
+        "masterStart": 171.1,
+        "masterEnd": 175.906416667,
+        "sourceStart": 21.78625,
+        "sourceEnd": 26.592667,
+        "keyPhrase": "obéir est présenté comme préserver l’ordre de l’univers",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 5,
+            "start": 168.19375,
+            "end": 172.31375,
+            "rawAsr": "Au bayre roin, ce n'était plus cédé à la force."
+          },
+          {
+            "index": 6,
+            "start": 172.31375,
+            "end": 175.31375,
+            "rawAsr": "C'était préservé l'ordre même de l'univers."
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 5,
+            "note": "« Obéir au roi, ce n’était plus céder à la force » probable."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "celestial_motif",
+        "paper_texture"
+      ],
+      "motion": "motifs radiaux s’ordonnent autour d’un centre ; mouvement lent qui se stabilise ; typographie seule au premier plan",
+      "transitionOut": "raccord du cercle vers un sceau",
+      "newNarration": false
+    },
+    {
+      "id": "s34",
+      "start": 175.906416667,
+      "end": 181.066,
+      "duration": 5.159583333,
+      "chapter": 8,
+      "clip": "08",
+      "theme": "transmettre une institution",
+      "type": "collage",
+      "title": "le pouvoir survit",
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 72,
+        "subtitleSizePx": 36,
+        "familyRole": "sans",
+        "maxVisibleTextBlocks": 1,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "08",
+        "masterStart": 175.906416667,
+        "masterEnd": 181.066,
+        "sourceStart": 0.0,
+        "sourceEnd": 5.546604,
+        "keyPhrase": "passage à l’hérédité et à la création de l’institution",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 0,
+            "start": 175.906417,
+            "end": 178.386417,
+            "rawAsr": "Mais la véritable révolution de la royauté,"
+          },
+          {
+            "index": 1,
+            "start": 178.386417,
+            "end": 180.909292,
+            "rawAsr": "se ne fut ni des courants, ni des billes."
+          },
+          {
+            "index": 2,
+            "start": 180.909292,
+            "end": 184.581292,
+            "rawAsr": "Ce fut l'éredité et la création de l'institution."
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 1,
+            "note": "Comparaison « ni des courants, ni des billes » mal reconnue ; ne pas figer de restitution."
+          },
+          {
+            "segmentIndex": 2,
+            "note": "« l’hérédité » probable."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "stone_seat",
+        "royal_statue"
+      ],
+      "motion": "siège ou sceau fixé au centre ; deux silhouettes successives passent dans le même cadre ; aucun nom de dynastie ajouté",
+      "transitionOut": "raccord de succession",
+      "newNarration": false
+    },
+    {
+      "id": "s35",
+      "start": 181.066,
+      "end": 186.3,
+      "duration": 5.234,
+      "chapter": 8,
+      "clip": "08",
+      "theme": "transmettre une institution",
+      "type": "diagram",
+      "title": "l’hérédité",
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 64,
+        "subtitleSizePx": 36,
+        "familyRole": "sans",
+        "maxVisibleTextBlocks": 1,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "08",
+        "masterStart": 181.066,
+        "masterEnd": 186.3,
+        "sourceStart": 5.546604,
+        "sourceEnd": 11.209396,
+        "keyPhrase": "l’hérédité et l’institution permettent une continuité",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 2,
+            "start": 180.909292,
+            "end": 184.581292,
+            "rawAsr": "Ce fut l'éredité et la création de l'institution."
+          },
+          {
+            "index": 3,
+            "start": 184.581292,
+            "end": 190.010604,
+            "rawAsr": "En séparant le pouvoir de l'individu, l'autorité a pu survivre à la mort."
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 2,
+            "note": "« l’hérédité » probable."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "succession_diagram"
+      ],
+      "motion": "deux générations de signes humains reliées par un passage de sceau ; pas d’arbre généalogique historique inventé",
+      "transitionOut": "coupe vers espace humain vide",
+      "newNarration": false
+    },
+    {
+      "id": "s36",
+      "start": 186.3,
+      "end": 191.691,
+      "duration": 5.391,
+      "chapter": 8,
+      "clip": "08",
+      "theme": "transmettre une institution",
+      "type": "video",
+      "title": null,
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 64,
+        "subtitleSizePx": 36,
+        "familyRole": "sans",
+        "maxVisibleTextBlocks": 0,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "08",
+        "masterStart": 186.3,
+        "masterEnd": 191.691,
+        "sourceStart": 11.209396,
+        "sourceEnd": 16.600396,
+        "keyPhrase": "séparer le pouvoir de l’individu permet de survivre à sa mort",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 3,
+            "start": 184.581292,
+            "end": 190.010604,
+            "rawAsr": "En séparant le pouvoir de l'individu, l'autorité a pu survivre à la mort."
+          },
+          {
+            "index": 4,
+            "start": 190.010604,
+            "end": 191.690604,
+            "rawAsr": "Un roi pouvait mourir."
+          },
+          {
+            "index": 5,
+            "start": 191.690604,
+            "end": 198.126313,
+            "rawAsr": "Les lois, les impôts, l'armée et la dynasty continuaient de tourner comme une horlage."
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 5,
+            "note": "Dynastie et horloge clairement visées."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "stone_seat"
+      ],
+      "motion": "une ombre humaine disparaît tandis que l’assise reste ; photographie réelle et ombre graphique si nécessaire ; aucun décès mis en scène",
+      "transitionOut": "raccord de l’assise vers le système",
+      "newNarration": false
+    },
+    {
+      "id": "s37",
+      "start": 191.691,
+      "end": 197.3,
+      "duration": 5.609,
+      "chapter": 8,
+      "clip": "08",
+      "theme": "transmettre une institution",
+      "type": "diagram",
+      "title": "l’institution reste",
+      "subtitle": "lois · impôts · armée",
+      "textStyle": {
+        "titleSizePx": 64,
+        "subtitleSizePx": 36,
+        "familyRole": "sans",
+        "maxVisibleTextBlocks": 2,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "08",
+        "masterStart": 191.691,
+        "masterEnd": 197.3,
+        "sourceStart": 16.600396,
+        "sourceEnd": 22.209396,
+        "keyPhrase": "les lois, les impôts, l’armée et la dynastie continuent",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 5,
+            "start": 191.690604,
+            "end": 198.126313,
+            "rawAsr": "Les lois, les impôts, l'armée et la dynasty continuaient de tourner comme une horlage."
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 5,
+            "note": "Dynastie et horloge clairement visées."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "institution_diagram"
+      ],
+      "motion": "modules graphiques continuent leur boucle après le retrait d’un portrait ; une impulsion mécanique unique, pas de chiffres ni jauges",
+      "transitionOut": "raccord institutionnel vers présent",
+      "newNarration": false
+    },
+    {
+      "id": "s38",
+      "start": 197.3,
+      "end": 202.769354167,
+      "duration": 5.469354167,
+      "chapter": 8,
+      "clip": "08",
+      "theme": "transmettre une institution",
+      "type": "video",
+      "title": "aujourd’hui",
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 64,
+        "subtitleSizePx": 36,
+        "familyRole": "sans",
+        "maxVisibleTextBlocks": 1,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "08",
+        "masterStart": 197.3,
+        "masterEnd": 202.769354167,
+        "sourceStart": 22.209396,
+        "sourceEnd": 28.055521,
+        "keyPhrase": "transition de la fin du clip vers notre présent",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 5,
+            "start": 191.690604,
+            "end": 198.126313,
+            "rawAsr": "Les lois, les impôts, l'armée et la dynasty continuaient de tourner comme une horlage."
+          },
+          {
+            "index": 6,
+            "start": 198.126313,
+            "end": 202.513833,
+            "rawAsr": "Aujourd'hui, nous n'avons plus de roi investi par les dieux de l'orage."
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 5,
+            "note": "Dynastie et horloge clairement visées."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "government_exterior_video"
+      ],
+      "motion": "façade institutionnelle actuelle sobre, sans héros national ni drapeau central ; mouvement latéral réel ; titre retardé jusqu’à l’énoncé aujourd’hui",
+      "transitionOut": "coupe sur la permanence des lignes architecturales",
+      "newNarration": false,
+      "textRevealAt": 198.1263125
+    },
+    {
+      "id": "s39",
+      "start": 202.769354167,
+      "end": 208.1,
+      "duration": 5.330645833,
+      "chapter": 9,
+      "clip": "09",
+      "theme": "la permanence du système",
+      "type": "typography",
+      "title": "le système reste",
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 72,
+        "subtitleSizePx": 36,
+        "familyRole": "serif",
+        "maxVisibleTextBlocks": 1,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "09",
+        "masterStart": 202.769354167,
+        "masterEnd": 208.1,
+        "sourceStart": 0.0,
+        "sourceEnd": 5.330646,
+        "keyPhrase": "nous vivons encore dans une invention institutionnelle durable",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 0,
+            "start": 202.769354,
+            "end": 207.449354,
+            "rawAsr": "Mais nous vivons toujours dans leur invention la plus puissante, celle où l'institution"
+          },
+          {
+            "index": 1,
+            "start": 207.449354,
+            "end": 209.609354,
+            "rawAsr": "sur vieux hommes qui l'occupent."
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 0,
+            "note": "Phrase se prolonge dans le segment suivant."
+          },
+          {
+            "segmentIndex": 1,
+            "note": "« survit aux hommes qui l’occupent » probable."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "institution_room"
+      ],
+      "motion": "le titre reste stable pendant que des cadres de portraits vides changent ; aucune proposition sur un pays précis",
+      "transitionOut": "raccord de cadre vers salle",
+      "newNarration": false
+    },
+    {
+      "id": "s40",
+      "start": 208.1,
+      "end": 213.5,
+      "duration": 5.4,
+      "chapter": 9,
+      "clip": "09",
+      "theme": "la permanence du système",
+      "type": "video",
+      "title": "les dirigeants passent",
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 64,
+        "subtitleSizePx": 36,
+        "familyRole": "sans",
+        "maxVisibleTextBlocks": 1,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "09",
+        "masterStart": 208.1,
+        "masterEnd": 213.5,
+        "sourceStart": 5.330646,
+        "sourceEnd": 10.730646,
+        "keyPhrase": "présidents et ministres changent tandis que le système demeure",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 1,
+            "start": 207.449354,
+            "end": 209.609354,
+            "rawAsr": "sur vieux hommes qui l'occupent."
+          },
+          {
+            "index": 2,
+            "start": 209.609354,
+            "end": 214.929354,
+            "rawAsr": "Les présidents partent les ministres d'émissionnes, mais le système reste."
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 1,
+            "note": "« survit aux hommes qui l’occupent » probable."
+          },
+          {
+            "segmentIndex": 2,
+            "note": "« les ministres démissionnent » probable."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "institution_room_video"
+      ],
+      "motion": "salle de réunion ou assemblée vide actuelle ; peu de mouvement ; aucun dirigeant reconnaissable ou logo partisan",
+      "transitionOut": "raccord de chaise vers vitrine",
+      "newNarration": false
+    },
+    {
+      "id": "s41",
+      "start": 213.5,
+      "end": 219.969354167,
+      "duration": 6.469354167,
+      "chapter": 9,
+      "clip": "09",
+      "theme": "la permanence du système",
+      "type": "photo",
+      "title": null,
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 64,
+        "subtitleSizePx": 36,
+        "familyRole": "sans",
+        "maxVisibleTextBlocks": 0,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "09",
+        "masterStart": 213.5,
+        "masterEnd": 219.969354167,
+        "sourceStart": 10.730646,
+        "sourceEnd": 17.2,
+        "keyPhrase": "retour à la couronne regardée dans un musée",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 2,
+            "start": 209.609354,
+            "end": 214.929354,
+            "rawAsr": "Les présidents partent les ministres d'émissionnes, mais le système reste."
+          },
+          {
+            "index": 3,
+            "start": 214.929354,
+            "end": 219.969354,
+            "rawAsr": "Alors, la prochaine fois que vous regardez une couronne dans un musée, rappelez-vous."
+          },
+          {
+            "index": 4,
+            "start": 219.969354,
+            "end": 223.449354,
+            "rawAsr": "L'humanité n'a pas inventé un homme exceptionnel."
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 2,
+            "note": "« les ministres démissionnent » probable."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "museum_crown"
+      ],
+      "motion": "objet royal sous vitrine, cadre large puis détail découpé ; sa culture et sa date sont sourcées ; il sert de métaphore finale, pas de preuve de la première royauté",
+      "transitionOut": "raccord de reflet vers portrait",
+      "newNarration": false
+    },
+    {
+      "id": "s42",
+      "start": 219.969354167,
+      "end": 225.4,
+      "duration": 5.430645833,
+      "chapter": 9,
+      "clip": "09",
+      "theme": "la permanence du système",
+      "type": "collage",
+      "title": "une histoire puissante",
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 64,
+        "subtitleSizePx": 36,
+        "familyRole": "sans",
+        "maxVisibleTextBlocks": 1,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "09",
+        "masterStart": 219.969354167,
+        "masterEnd": 225.4,
+        "sourceStart": 17.2,
+        "sourceEnd": 22.630646,
+        "keyPhrase": "la force du récit autour de l’autorité plutôt que d’un individu exceptionnel",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 4,
+            "start": 219.969354,
+            "end": 223.449354,
+            "rawAsr": "L'humanité n'a pas inventé un homme exceptionnel."
+          },
+          {
+            "index": 5,
+            "start": 223.449354,
+            "end": 230.489354,
+            "rawAsr": "Elle a inventé une histoire 6 puissantes qu'on a fini par croire au siège, plutôt qu'à celui"
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 5,
+            "note": "« une histoire si puissante » probable ; fin après « plutôt qu’à celui » non reconnue."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "royal_statue",
+        "paper_texture"
+      ],
+      "motion": "portrait recule dans une trame de papier ; le mot histoire reste au premier plan ; pas de restitution inventée de la fin de phrase",
+      "transitionOut": "raccord d’effacement vers siège",
+      "newNarration": false
+    },
+    {
+      "id": "s43",
+      "start": 225.4,
+      "end": 231.817520833,
+      "duration": 6.417520833,
+      "chapter": 9,
+      "clip": "09",
+      "theme": "la permanence du système",
+      "type": "diagram",
+      "title": "le siège demeure",
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 64,
+        "subtitleSizePx": 36,
+        "familyRole": "sans",
+        "maxVisibleTextBlocks": 1,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "09",
+        "masterStart": 225.4,
+        "masterEnd": 231.817520833,
+        "sourceStart": 22.630646,
+        "sourceEnd": 29.048167,
+        "keyPhrase": "le récit conclut sur la croyance attachée au siège ; la fin exacte est mal reconnue",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 5,
+            "start": 223.449354,
+            "end": 230.489354,
+            "rawAsr": "Elle a inventé une histoire 6 puissantes qu'on a fini par croire au siège, plutôt qu'à celui"
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 5,
+            "note": "« une histoire si puissante » probable ; fin après « plutôt qu’à celui » non reconnue."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "stone_seat",
+        "human_silhouettes"
+      ],
+      "motion": "figure humaine s’efface ; seul le siège graphique reste ; tenir la fin sans compléter la phrase à l’écrit",
+      "transitionOut": "fondu court vers carton final",
+      "newNarration": false
+    },
+    {
+      "id": "s44",
+      "start": 231.817520833,
+      "end": 235.608229167,
+      "duration": 3.790708334,
+      "chapter": 9,
+      "clip": "10",
+      "theme": "signature et abonnement",
+      "type": "typography",
+      "title": "abonnez-vous",
+      "subtitle": null,
+      "textStyle": {
+        "titleSizePx": 64,
+        "subtitleSizePx": 36,
+        "familyRole": "serif",
+        "maxVisibleTextBlocks": 1,
+        "case": "lowercase",
+        "safeMarginPx": 120,
+        "maxTitleLines": 2
+      },
+      "voice": {
+        "clip": "10",
+        "masterStart": 231.817520833,
+        "masterEnd": 235.608229167,
+        "sourceStart": 0.0,
+        "sourceEnd": 4.153479,
+        "keyPhrase": "signature originale puis appel à l’abonnement",
+        "keyPhraseIsVerbatim": false,
+        "asrSegments": [
+          {
+            "index": 0,
+            "start": 231.817521,
+            "end": 234.360583,
+            "rawAsr": "Prune des notes, les détails change tous."
+          },
+          {
+            "index": 1,
+            "start": 234.360583,
+            "end": 235.17475,
+            "rawAsr": "Abonnez-vous."
+          }
+        ],
+        "uncertainty": [
+          {
+            "segmentIndex": 0,
+            "note": "Signature probable « Prenez des notes, les détails changent tout » ; premiers mots non établis."
+          }
+        ],
+        "displayVerbatimAsr": false
+      },
+      "assetNeeds": [
+        "paper_texture"
+      ],
+      "motion": "carton de fin calme ; aucune marque de chaîne supposée ; titre présent de 232.25 s à la fin, avant et pendant le mot réellement prononcé",
+      "transitionOut": "fin sur la durée exacte de la voix préparée",
+      "newNarration": false,
+      "textRevealAt": 232.25,
+      "spokenCtaAt": 234.360583333
+    }
+  ],
+  "validation": {
+    "shotCount": 44,
+    "chapterCount": 9,
+    "typeCounts": {
+      "typography": 7,
+      "collage": 10,
+      "diagram": 12,
+      "photo": 7,
+      "video": 7,
+      "map": 1
+    },
+    "minShotDuration": 3.432354167,
+    "maxShotDuration": 6.478,
+    "voiceUnchanged": true,
+    "timingReview": "temps ASR indicatifs ; frontières audio exactes issues du rapport de préparation"
+  }
+}

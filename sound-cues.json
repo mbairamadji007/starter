@@ -1,0 +1,176 @@
+{
+  "durationSeconds": 235.60822916666666,
+  "sampleRate": 48000,
+  "seed": 280042010,
+  "timingClock": "prepared narration, not raw MP3 concatenation",
+  "cues": [
+    {
+      "id": "chapter-01",
+      "time": 0.0,
+      "kind": "air",
+      "gain": 0.72,
+      "purpose": "opening"
+    },
+    {
+      "id": "chapter-air-02",
+      "time": 18.452354167,
+      "kind": "air",
+      "gain": 0.68,
+      "purpose": "short anticipation into chapter"
+    },
+    {
+      "id": "chapter-02",
+      "time": 18.832354167,
+      "kind": "paper",
+      "gain": 0.72,
+      "purpose": "chapter transition"
+    },
+    {
+      "id": "chapter-air-03",
+      "time": 44.711291667,
+      "kind": "air",
+      "gain": 0.68,
+      "purpose": "short anticipation into chapter"
+    },
+    {
+      "id": "chapter-03",
+      "time": 45.091291667,
+      "kind": "stone",
+      "gain": 0.72,
+      "purpose": "chapter transition"
+    },
+    {
+      "id": "low-accent-03",
+      "time": 45.091291667,
+      "kind": "deep-impact",
+      "gain": 0.62,
+      "purpose": "three restrained low-frequency narrative accents"
+    },
+    {
+      "id": "grain-reveal",
+      "time": 66.494,
+      "kind": "grain",
+      "gain": 0.75,
+      "purpose": "grain stock fragments/accumulates"
+    },
+    {
+      "id": "chapter-air-04",
+      "time": 71.21627083300001,
+      "kind": "air",
+      "gain": 0.68,
+      "purpose": "short anticipation into chapter"
+    },
+    {
+      "id": "chapter-04",
+      "time": 71.596270833,
+      "kind": "wood",
+      "gain": 0.72,
+      "purpose": "chapter transition"
+    },
+    {
+      "id": "account-grid",
+      "time": 90.98,
+      "kind": "paper",
+      "gain": 0.7,
+      "purpose": "first accounting grid"
+    },
+    {
+      "id": "chapter-air-05",
+      "time": 93.162291667,
+      "kind": "air",
+      "gain": 0.68,
+      "purpose": "short anticipation into chapter"
+    },
+    {
+      "id": "chapter-05",
+      "time": 93.542291667,
+      "kind": "grain",
+      "gain": 0.72,
+      "purpose": "chapter transition"
+    },
+    {
+      "id": "chapter-air-06",
+      "time": 120.459791667,
+      "kind": "air",
+      "gain": 0.68,
+      "purpose": "short anticipation into chapter"
+    },
+    {
+      "id": "chapter-06",
+      "time": 120.839791667,
+      "kind": "stone",
+      "gain": 0.72,
+      "purpose": "chapter transition"
+    },
+    {
+      "id": "low-accent-06",
+      "time": 120.839791667,
+      "kind": "deep-impact",
+      "gain": 0.62,
+      "purpose": "three restrained low-frequency narrative accents"
+    },
+    {
+      "id": "chapter-air-07",
+      "time": 149.404333333,
+      "kind": "air",
+      "gain": 0.68,
+      "purpose": "short anticipation into chapter"
+    },
+    {
+      "id": "chapter-07",
+      "time": 149.784333333,
+      "kind": "paper",
+      "gain": 0.72,
+      "purpose": "chapter transition"
+    },
+    {
+      "id": "chapter-air-08",
+      "time": 175.526416667,
+      "kind": "air",
+      "gain": 0.68,
+      "purpose": "short anticipation into chapter"
+    },
+    {
+      "id": "chapter-08",
+      "time": 175.906416667,
+      "kind": "mechanism",
+      "gain": 0.72,
+      "purpose": "chapter transition"
+    },
+    {
+      "id": "institution-relay",
+      "time": 184.581,
+      "kind": "mechanism",
+      "gain": 0.85,
+      "purpose": "person leaves; institution remains, one short mechanical gesture"
+    },
+    {
+      "id": "chapter-air-09",
+      "time": 202.389354167,
+      "kind": "air",
+      "gain": 0.68,
+      "purpose": "short anticipation into chapter"
+    },
+    {
+      "id": "chapter-09",
+      "time": 202.769354167,
+      "kind": "stone",
+      "gain": 0.72,
+      "purpose": "chapter transition"
+    },
+    {
+      "id": "low-accent-09",
+      "time": 202.769354167,
+      "kind": "deep-impact",
+      "gain": 0.62,
+      "purpose": "three restrained low-frequency narrative accents"
+    },
+    {
+      "id": "chapter-10",
+      "time": 231.817520833,
+      "kind": "wood",
+      "gain": 0.72,
+      "purpose": "chapter transition"
+    }
+  ]
+}

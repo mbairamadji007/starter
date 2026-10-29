@@ -1,0 +1,62 @@
+{
+  "durationSeconds": 235.60822916666666,
+  "frames": 11309195,
+  "sampleRate": 48000,
+  "channels": 2,
+  "pcmBits": 24,
+  "master": "assets/audio/documentary-master.wav",
+  "compressedPreview": "assets/audio/documentary-master.m4a",
+  "masterMetrics": {
+    "integratedLUFS": -16.0,
+    "truePeakDbTP": -4.31,
+    "loudnessRangeLU": 2.9,
+    "samplePeakDbFS": -4.3537,
+    "clippedSampleCount": 0
+  },
+  "aacMetrics": {
+    "integratedLUFS": -16.05,
+    "truePeakDbTP": -3.91,
+    "loudnessRangeLU": 3.0
+  },
+  "constantMasterGainDb": -0.91,
+  "sourceNarrationSha256": "8ccd68e3f10d20337512caf26e9f03a1f31f7a39cbda6420648ed11a414c7680",
+  "narrationProcessing": "constant-power stereo centre and one constant mastering gain only",
+  "speechCutsInThisMix": 0,
+  "voiceResynthesized": false,
+  "musicDuckDb": -8,
+  "sfxDuckDb": -4,
+  "duckLookaheadSeconds": 0.09,
+  "duckAttackSeconds": 0.035,
+  "duckHoldSeconds": 0.2,
+  "duckReleaseSeconds": 0.55,
+  "musicCarve": [
+    {
+      "frequencyHz": 250,
+      "gainDb": -2
+    },
+    {
+      "frequencyHz": 850,
+      "gainDb": -4.5
+    },
+    {
+      "frequencyHz": 1800,
+      "gainDb": -5
+    },
+    {
+      "frequencyHz": 3200,
+      "gainDb": -3
+    }
+  ],
+  "cueCount": 24,
+  "musicSFXProvenance": "Original procedural synthesis, no sampled third-party recordings",
+  "seed": 280042010,
+  "masterSha256": "e0c7e25aa865873a6dc400625204f624f3e5369aadd3095bfa6b78d494818c14",
+  "stems": {
+    "sourceVoice": "assets/audio/narration-source.wav",
+    "originalMusic": "assets/audio/music-original.flac",
+    "originalSFX": "assets/audio/sfx-original.flac",
+    "postmixVoice": "assets/audio/narration-mix.flac",
+    "postmixBackground": "assets/audio/background-mix.flac"
+  },
+  "runtime": "Frozen assets only; no synthesis, randomness or WebAudio timers in the composition"
+}

@@ -1,0 +1,1522 @@
+{
+  "schemaVersion": 1,
+  "status": "preparatory_voice_only_waiting_for_visual_assets",
+  "script": "/workspace/work/documentary/scripts/prepare_voice.py",
+  "scriptSha256": "8daf0163dc777e8d85496594cd17f61593d29cd7e1e092ab0ed0ac3bfe991267",
+  "sourceCount": 10,
+  "numericOrder": [
+    "01.mp3",
+    "02.mp3",
+    "03.mp3",
+    "04.mp3",
+    "05.mp3",
+    "06.mp3",
+    "07.mp3",
+    "08.mp3",
+    "09.mp3",
+    "10.mp3"
+  ],
+  "outputFormat": {
+    "container": "WAV",
+    "codec": "PCM signed 24-bit little-endian",
+    "sampleRate": 48000,
+    "channels": 1
+  },
+  "policy": {
+    "silenceDetectDbFS": -42.0,
+    "minimumDetectedSilenceSeconds": 0.65,
+    "retainedInternalPauseSeconds": 0.32,
+    "retainedBoundaryPaddingSeconds": 0.2,
+    "removalCoreMustNotExceedDbFS": -52.0,
+    "quietJoinFadeSeconds": 0.003,
+    "gainDb": 0,
+    "noDenoisingEQCompressionStretchResynthesis": true,
+    "musicAndSFXAdded": false,
+    "silenceThresholdAdjusted": false
+  },
+  "summary": {
+    "rawContainerDurationSeconds": 245.07994,
+    "rawDecodedDurationSeconds": 245.080895833,
+    "preparedDurationSeconds": 235.608229167,
+    "silenceRemovedSeconds": 9.472666667,
+    "detectedLongSilenceCount": 23,
+    "appliedCutCount": 19,
+    "retainedCandidateCount": 4
+  },
+  "master": {
+    "file": "voice-master.wav",
+    "path": "/workspace/work/documentary/prepared/audio/voice-master.wav",
+    "sha256": "8ccd68e3f10d20337512caf26e9f03a1f31f7a39cbda6420648ed11a414c7680",
+    "frames": 11309195,
+    "metrics": {
+      "integratedLUFS": -15.11,
+      "truePeakDbTP": -0.5,
+      "loudnessRangeLU": 3.0,
+      "samplePeakDbFS": -0.5426,
+      "clippedSampleCount": 0
+    }
+  },
+  "timestampConvention": "Source times are relative to the decoded, gapless MP3 at t=0. Source and prepared sample positions use a common 48000 Hz clock. No speed change: within each kept segment, masterTime = masterStartSeconds + sourceTime - sourceStartSeconds.",
+  "asrMappingAdvice": "Transcribe originals or the prepared master. When using original word times, map each word through its file keptSegments; no kept speech is retimed.",
+  "verificationLimit": "Silence selection is signal-based with a conservative breath guard; this is a reversible preparatory edit, not a claimed listening or final editorial review.",
+  "files": [
+    {
+      "sourceFile": "01.mp3",
+      "sourcePath": "/workspace/work/documentary/originals/audio/01.mp3",
+      "sourceAttachmentId": "file_00000000c1448208b88df32c9f7e6228",
+      "sourceSha256": "f383589c8ee43016f0ff18c213e1976986a3f99faa1b5c0b759cde62c1fad6ff",
+      "sourceContainerDurationSeconds": 19.252125,
+      "sourceDecodedDurationSeconds": 19.25225,
+      "sourceDecodedFrames": 924108,
+      "sourceFormat": {
+        "codec_name": "mp3",
+        "sample_rate": "44100",
+        "channels": 1,
+        "start_time": "0.000000"
+      },
+      "sourceMetrics": {
+        "integratedLUFS": -15.39,
+        "truePeakDbTP": -0.56,
+        "loudnessRangeLU": 2.8,
+        "samplePeakDbFS": -0.5703,
+        "rmsDbFS": -15.3977,
+        "clippedSampleCount": 0
+      },
+      "preparedFile": "01.wav",
+      "preparedPath": "/workspace/work/documentary/prepared/audio/01.wav",
+      "preparedSha256": "16c7dbc02f00cd61ba31be076156cda66d6945e74c291d14a5bfefc2a1193706",
+      "preparedDurationSeconds": 18.832354167,
+      "preparedFrames": 903953,
+      "removedSeconds": 0.419895833,
+      "gainDb": 0,
+      "detectedSilences": [
+        {
+          "sourceStartSeconds": 5.800541667,
+          "sourceEndSeconds": 6.5404375,
+          "detectedDurationSeconds": 0.739895833,
+          "kind": "internal_pause",
+          "proposedRemovalStartSeconds": 5.960541667,
+          "proposedRemovalEndSeconds": 6.3804375,
+          "proposedRemovalPeakDbFS": -57.7028,
+          "decision": "shorten",
+          "reason": "deep quiet core, preserve speech-side pause margins",
+          "removedSeconds": 0.419895833,
+          "retainedPauseSeconds": 0.32
+        }
+      ],
+      "removedIntervals": [
+        {
+          "sourceStartSeconds": 5.960541667,
+          "sourceEndSeconds": 6.3804375,
+          "sourceStartSample": 286106,
+          "sourceEndSample": 306261,
+          "durationSeconds": 0.419895833,
+          "kind": "internal_pause"
+        }
+      ],
+      "keptSegments": [
+        {
+          "sourceStartSample": 0,
+          "sourceEndSample": 286106,
+          "sourceStartSeconds": 0.0,
+          "sourceEndSeconds": 5.960541667,
+          "preparedFileStartSample": 0,
+          "preparedFileEndSample": 286106,
+          "preparedFileStartSeconds": 0.0,
+          "preparedFileEndSeconds": 5.960541667,
+          "masterStartSample": 0,
+          "masterEndSample": 286106,
+          "masterStartSeconds": 0.0,
+          "masterEndSeconds": 5.960541667
+        },
+        {
+          "sourceStartSample": 306261,
+          "sourceEndSample": 924108,
+          "sourceStartSeconds": 6.3804375,
+          "sourceEndSeconds": 19.25225,
+          "preparedFileStartSample": 286106,
+          "preparedFileEndSample": 903953,
+          "preparedFileStartSeconds": 5.960541667,
+          "preparedFileEndSeconds": 18.832354167,
+          "masterStartSample": 286106,
+          "masterEndSample": 903953,
+          "masterStartSeconds": 5.960541667,
+          "masterEndSeconds": 18.832354167
+        }
+      ],
+      "quietJoinFades": [
+        {
+          "sourceStartSeconds": 5.957541667,
+          "sourceEndSeconds": 5.960541667,
+          "kind": "fade_out_quiet_join"
+        },
+        {
+          "sourceStartSeconds": 6.3804375,
+          "sourceEndSeconds": 6.3834375,
+          "kind": "fade_in_quiet_join"
+        }
+      ],
+      "rawConcatenationStartSeconds": 0.0,
+      "rawConcatenationEndSeconds": 19.25225,
+      "preparedMasterStartSample": 0,
+      "preparedMasterEndSample": 903953,
+      "preparedMasterStartSeconds": 0.0,
+      "preparedMasterEndSeconds": 18.832354167
+    },
+    {
+      "sourceFile": "02.mp3",
+      "sourcePath": "/workspace/work/documentary/originals/audio/02.mp3",
+      "sourceAttachmentId": "file_000000005e9c8246924d2490bac4e225",
+      "sourceSha256": "900da40981ea0a04cbac96960a5a5f49f4a845f0aea6b5793a436af3f67bfcad",
+      "sourceContainerDurationSeconds": 27.794188,
+      "sourceDecodedDurationSeconds": 27.794291667,
+      "sourceDecodedFrames": 1334126,
+      "sourceFormat": {
+        "codec_name": "mp3",
+        "sample_rate": "44100",
+        "channels": 1,
+        "start_time": "0.000000"
+      },
+      "sourceMetrics": {
+        "integratedLUFS": -15.58,
+        "truePeakDbTP": -0.85,
+        "loudnessRangeLU": 2.7,
+        "samplePeakDbFS": -0.8456,
+        "rmsDbFS": -15.8046,
+        "clippedSampleCount": 0
+      },
+      "preparedFile": "02.wav",
+      "preparedPath": "/workspace/work/documentary/prepared/audio/02.wav",
+      "preparedSha256": "0cc51029ca576b162e3a6812a376decf571ea0191d67e03e20add8da405987ff",
+      "preparedDurationSeconds": 26.2589375,
+      "preparedFrames": 1260429,
+      "removedSeconds": 1.535354167,
+      "gainDb": 0,
+      "detectedSilences": [
+        {
+          "sourceStartSeconds": 4.530666667,
+          "sourceEndSeconds": 5.321458333,
+          "detectedDurationSeconds": 0.790791667,
+          "kind": "internal_pause",
+          "proposedRemovalStartSeconds": 4.690666667,
+          "proposedRemovalEndSeconds": 5.161458333,
+          "proposedRemovalPeakDbFS": -58.562,
+          "decision": "shorten",
+          "reason": "deep quiet core, preserve speech-side pause margins",
+          "removedSeconds": 0.470791667,
+          "retainedPauseSeconds": 0.32
+        },
+        {
+          "sourceStartSeconds": 17.073270833,
+          "sourceEndSeconds": 17.863083333,
+          "detectedDurationSeconds": 0.7898125,
+          "kind": "internal_pause",
+          "proposedRemovalStartSeconds": 17.233270833,
+          "proposedRemovalEndSeconds": 17.703083333,
+          "proposedRemovalPeakDbFS": -61.4187,
+          "decision": "shorten",
+          "reason": "deep quiet core, preserve speech-side pause margins",
+          "removedSeconds": 0.4698125,
+          "retainedPauseSeconds": 0.32
+        },
+        {
+          "sourceStartSeconds": 20.8443125,
+          "sourceEndSeconds": 21.7590625,
+          "detectedDurationSeconds": 0.91475,
+          "kind": "internal_pause",
+          "proposedRemovalStartSeconds": 21.0043125,
+          "proposedRemovalEndSeconds": 21.5990625,
+          "proposedRemovalPeakDbFS": -59.4535,
+          "decision": "shorten",
+          "reason": "deep quiet core, preserve speech-side pause margins",
+          "removedSeconds": 0.59475,
+          "retainedPauseSeconds": 0.32
+        }
+      ],
+      "removedIntervals": [
+        {
+          "sourceStartSeconds": 4.690666667,
+          "sourceEndSeconds": 5.161458333,
+          "sourceStartSample": 225152,
+          "sourceEndSample": 247750,
+          "durationSeconds": 0.470791667,
+          "kind": "internal_pause"
+        },
+        {
+          "sourceStartSeconds": 17.233270833,
+          "sourceEndSeconds": 17.703083333,
+          "sourceStartSample": 827197,
+          "sourceEndSample": 849748,
+          "durationSeconds": 0.4698125,
+          "kind": "internal_pause"
+        },
+        {
+          "sourceStartSeconds": 21.0043125,
+          "sourceEndSeconds": 21.5990625,
+          "sourceStartSample": 1008207,
+          "sourceEndSample": 1036755,
+          "durationSeconds": 0.59475,
+          "kind": "internal_pause"
+        }
+      ],
+      "keptSegments": [
+        {
+          "sourceStartSample": 0,
+          "sourceEndSample": 225152,
+          "sourceStartSeconds": 0.0,
+          "sourceEndSeconds": 4.690666667,
+          "preparedFileStartSample": 0,
+          "preparedFileEndSample": 225152,
+          "preparedFileStartSeconds": 0.0,
+          "preparedFileEndSeconds": 4.690666667,
+          "masterStartSample": 903953,
+          "masterEndSample": 1129105,
+          "masterStartSeconds": 18.832354167,
+          "masterEndSeconds": 23.523020833
+        },
+        {
+          "sourceStartSample": 247750,
+          "sourceEndSample": 827197,
+          "sourceStartSeconds": 5.161458333,
+          "sourceEndSeconds": 17.233270833,
+          "preparedFileStartSample": 225152,
+          "preparedFileEndSample": 804599,
+          "preparedFileStartSeconds": 4.690666667,
+          "preparedFileEndSeconds": 16.762479167,
+          "masterStartSample": 1129105,
+          "masterEndSample": 1708552,
+          "masterStartSeconds": 23.523020833,
+          "masterEndSeconds": 35.594833333
+        },
+        {
+          "sourceStartSample": 849748,
+          "sourceEndSample": 1008207,
+          "sourceStartSeconds": 17.703083333,
+          "sourceEndSeconds": 21.0043125,
+          "preparedFileStartSample": 804599,
+          "preparedFileEndSample": 963058,
+          "preparedFileStartSeconds": 16.762479167,
+          "preparedFileEndSeconds": 20.063708333,
+          "masterStartSample": 1708552,
+          "masterEndSample": 1867011,
+          "masterStartSeconds": 35.594833333,
+          "masterEndSeconds": 38.8960625
+        },
+        {
+          "sourceStartSample": 1036755,
+          "sourceEndSample": 1334126,
+          "sourceStartSeconds": 21.5990625,
+          "sourceEndSeconds": 27.794291667,
+          "preparedFileStartSample": 963058,
+          "preparedFileEndSample": 1260429,
+          "preparedFileStartSeconds": 20.063708333,
+          "preparedFileEndSeconds": 26.2589375,
+          "masterStartSample": 1867011,
+          "masterEndSample": 2164382,
+          "masterStartSeconds": 38.8960625,
+          "masterEndSeconds": 45.091291667
+        }
+      ],
+      "quietJoinFades": [
+        {
+          "sourceStartSeconds": 4.687666667,
+          "sourceEndSeconds": 4.690666667,
+          "kind": "fade_out_quiet_join"
+        },
+        {
+          "sourceStartSeconds": 5.161458333,
+          "sourceEndSeconds": 5.164458333,
+          "kind": "fade_in_quiet_join"
+        },
+        {
+          "sourceStartSeconds": 17.230270833,
+          "sourceEndSeconds": 17.233270833,
+          "kind": "fade_out_quiet_join"
+        },
+        {
+          "sourceStartSeconds": 17.703083333,
+          "sourceEndSeconds": 17.706083333,
+          "kind": "fade_in_quiet_join"
+        },
+        {
+          "sourceStartSeconds": 21.0013125,
+          "sourceEndSeconds": 21.0043125,
+          "kind": "fade_out_quiet_join"
+        },
+        {
+          "sourceStartSeconds": 21.5990625,
+          "sourceEndSeconds": 21.6020625,
+          "kind": "fade_in_quiet_join"
+        }
+      ],
+      "rawConcatenationStartSeconds": 19.25225,
+      "rawConcatenationEndSeconds": 47.046541667,
+      "preparedMasterStartSample": 903953,
+      "preparedMasterEndSample": 2164382,
+      "preparedMasterStartSeconds": 18.832354167,
+      "preparedMasterEndSeconds": 45.091291667
+    },
+    {
+      "sourceFile": "03.mp3",
+      "sourcePath": "/workspace/work/documentary/originals/audio/03.mp3",
+      "sourceAttachmentId": "file_00000000a4f481f581776d376ee85b01",
+      "sourceSha256": "012bdee5429a55a3c72ddbe04fc45364a34e06aa294023b5be296ee8c158c1f3",
+      "sourceContainerDurationSeconds": 28.682375,
+      "sourceDecodedDurationSeconds": 28.682458333,
+      "sourceDecodedFrames": 1376758,
+      "sourceFormat": {
+        "codec_name": "mp3",
+        "sample_rate": "44100",
+        "channels": 1,
+        "start_time": "0.000000"
+      },
+      "sourceMetrics": {
+        "integratedLUFS": -14.79,
+        "truePeakDbTP": -0.71,
+        "loudnessRangeLU": 2.7,
+        "samplePeakDbFS": -0.7547,
+        "rmsDbFS": -15.1277,
+        "clippedSampleCount": 0
+      },
+      "preparedFile": "03.wav",
+      "preparedPath": "/workspace/work/documentary/prepared/audio/03.wav",
+      "preparedSha256": "3e04bdbdd09c371fc5b4ec2e7bb23e57a22c7af76bcb47141cd1f42991783f17",
+      "preparedDurationSeconds": 26.504979167,
+      "preparedFrames": 1272239,
+      "removedSeconds": 2.177479167,
+      "gainDb": 0,
+      "detectedSilences": [
+        {
+          "sourceStartSeconds": 3.4946875,
+          "sourceEndSeconds": 4.153666667,
+          "detectedDurationSeconds": 0.658979167,
+          "kind": "internal_pause",
+          "proposedRemovalStartSeconds": 3.6546875,
+          "proposedRemovalEndSeconds": 3.993666667,
+          "proposedRemovalPeakDbFS": -62.7109,
+          "decision": "shorten",
+          "reason": "deep quiet core, preserve speech-side pause margins",
+          "removedSeconds": 0.338979167,
+          "retainedPauseSeconds": 0.32
+        },
+        {
+          "sourceStartSeconds": 11.119,
+          "sourceEndSeconds": 12.290875,
+          "detectedDurationSeconds": 1.171875,
+          "kind": "internal_pause",
+          "proposedRemovalStartSeconds": 11.279,
+          "proposedRemovalEndSeconds": 12.130875,
+          "proposedRemovalPeakDbFS": -64.4601,
+          "decision": "shorten",
+          "reason": "deep quiet core, preserve speech-side pause margins",
+          "removedSeconds": 0.851875,
+          "retainedPauseSeconds": 0.32
+        },
+        {
+          "sourceStartSeconds": 16.329333333,
+          "sourceEndSeconds": 17.175416667,
+          "detectedDurationSeconds": 0.846083333,
+          "kind": "internal_pause",
+          "proposedRemovalStartSeconds": 16.489333333,
+          "proposedRemovalEndSeconds": 17.015416667,
+          "proposedRemovalPeakDbFS": -62.4348,
+          "decision": "shorten",
+          "reason": "deep quiet core, preserve speech-side pause margins",
+          "removedSeconds": 0.526083333,
+          "retainedPauseSeconds": 0.32
+        },
+        {
+          "sourceStartSeconds": 28.021916667,
+          "sourceEndSeconds": 28.682458333,
+          "detectedDurationSeconds": 0.660541667,
+          "kind": "trailing_padding",
+          "proposedRemovalStartSeconds": 28.221916667,
+          "proposedRemovalEndSeconds": 28.682458333,
+          "proposedRemovalPeakDbFS": -81.6197,
+          "decision": "shorten",
+          "reason": "deep quiet core, preserve speech-side pause margins",
+          "removedSeconds": 0.460541667,
+          "retainedPauseSeconds": 0.2
+        }
+      ],
+      "removedIntervals": [
+        {
+          "sourceStartSeconds": 3.6546875,
+          "sourceEndSeconds": 3.993666667,
+          "sourceStartSample": 175425,
+          "sourceEndSample": 191696,
+          "durationSeconds": 0.338979167,
+          "kind": "internal_pause"
+        },
+        {
+          "sourceStartSeconds": 11.279,
+          "sourceEndSeconds": 12.130875,
+          "sourceStartSample": 541392,
+          "sourceEndSample": 582282,
+          "durationSeconds": 0.851875,
+          "kind": "internal_pause"
+        },
+        {
+          "sourceStartSeconds": 16.489333333,
+          "sourceEndSeconds": 17.015416667,
+          "sourceStartSample": 791488,
+          "sourceEndSample": 816740,
+          "durationSeconds": 0.526083333,
+          "kind": "internal_pause"
+        },
+        {
+          "sourceStartSeconds": 28.221916667,
+          "sourceEndSeconds": 28.682458333,
+          "sourceStartSample": 1354652,
+          "sourceEndSample": 1376758,
+          "durationSeconds": 0.460541667,
+          "kind": "trailing_padding"
+        }
+      ],
+      "keptSegments": [
+        {
+          "sourceStartSample": 0,
+          "sourceEndSample": 175425,
+          "sourceStartSeconds": 0.0,
+          "sourceEndSeconds": 3.6546875,
+          "preparedFileStartSample": 0,
+          "preparedFileEndSample": 175425,
+          "preparedFileStartSeconds": 0.0,
+          "preparedFileEndSeconds": 3.6546875,
+          "masterStartSample": 2164382,
+          "masterEndSample": 2339807,
+          "masterStartSeconds": 45.091291667,
+          "masterEndSeconds": 48.745979167
+        },
+        {
+          "sourceStartSample": 191696,
+          "sourceEndSample": 541392,
+          "sourceStartSeconds": 3.993666667,
+          "sourceEndSeconds": 11.279,
+          "preparedFileStartSample": 175425,
+          "preparedFileEndSample": 525121,
+          "preparedFileStartSeconds": 3.6546875,
+          "preparedFileEndSeconds": 10.940020833,
+          "masterStartSample": 2339807,
+          "masterEndSample": 2689503,
+          "masterStartSeconds": 48.745979167,
+          "masterEndSeconds": 56.0313125
+        },
+        {
+          "sourceStartSample": 582282,
+          "sourceEndSample": 791488,
+          "sourceStartSeconds": 12.130875,
+          "sourceEndSeconds": 16.489333333,
+          "preparedFileStartSample": 525121,
+          "preparedFileEndSample": 734327,
+          "preparedFileStartSeconds": 10.940020833,
+          "preparedFileEndSeconds": 15.298479167,
+          "masterStartSample": 2689503,
+          "masterEndSample": 2898709,
+          "masterStartSeconds": 56.0313125,
+          "masterEndSeconds": 60.389770833
+        },
+        {
+          "sourceStartSample": 816740,
+          "sourceEndSample": 1354652,
+          "sourceStartSeconds": 17.015416667,
+          "sourceEndSeconds": 28.221916667,
+          "preparedFileStartSample": 734327,
+          "preparedFileEndSample": 1272239,
+          "preparedFileStartSeconds": 15.298479167,
+          "preparedFileEndSeconds": 26.504979167,
+          "masterStartSample": 2898709,
+          "masterEndSample": 3436621,
+          "masterStartSeconds": 60.389770833,
+          "masterEndSeconds": 71.596270833
+        }
+      ],
+      "quietJoinFades": [
+        {
+          "sourceStartSeconds": 3.6516875,
+          "sourceEndSeconds": 3.6546875,
+          "kind": "fade_out_quiet_join"
+        },
+        {
+          "sourceStartSeconds": 3.993666667,
+          "sourceEndSeconds": 3.996666667,
+          "kind": "fade_in_quiet_join"
+        },
+        {
+          "sourceStartSeconds": 11.276,
+          "sourceEndSeconds": 11.279,
+          "kind": "fade_out_quiet_join"
+        },
+        {
+          "sourceStartSeconds": 12.130875,
+          "sourceEndSeconds": 12.133875,
+          "kind": "fade_in_quiet_join"
+        },
+        {
+          "sourceStartSeconds": 16.486333333,
+          "sourceEndSeconds": 16.489333333,
+          "kind": "fade_out_quiet_join"
+        },
+        {
+          "sourceStartSeconds": 17.015416667,
+          "sourceEndSeconds": 17.018416667,
+          "kind": "fade_in_quiet_join"
+        },
+        {
+          "sourceStartSeconds": 28.218916667,
+          "sourceEndSeconds": 28.221916667,
+          "kind": "fade_out_quiet_join"
+        }
+      ],
+      "rawConcatenationStartSeconds": 47.046541667,
+      "rawConcatenationEndSeconds": 75.729,
+      "preparedMasterStartSample": 2164382,
+      "preparedMasterEndSample": 3436621,
+      "preparedMasterStartSeconds": 45.091291667,
+      "preparedMasterEndSeconds": 71.596270833
+    },
+    {
+      "sourceFile": "04.mp3",
+      "sourcePath": "/workspace/work/documentary/originals/audio/04.mp3",
+      "sourceAttachmentId": "file_00000000efa08243b76f7db6af99e4ca",
+      "sourceSha256": "420f0fd17131c1c6e1ab776c16730ae16045404755fe118d1624452d7a6e1d54",
+      "sourceContainerDurationSeconds": 23.562375,
+      "sourceDecodedDurationSeconds": 23.562458333,
+      "sourceDecodedFrames": 1130998,
+      "sourceFormat": {
+        "codec_name": "mp3",
+        "sample_rate": "44100",
+        "channels": 1,
+        "start_time": "0.000000"
+      },
+      "sourceMetrics": {
+        "integratedLUFS": -16.29,
+        "truePeakDbTP": -0.81,
+        "loudnessRangeLU": 2.8,
+        "samplePeakDbFS": -0.813,
+        "rmsDbFS": -16.9448,
+        "clippedSampleCount": 0
+      },
+      "preparedFile": "04.wav",
+      "preparedPath": "/workspace/work/documentary/prepared/audio/04.wav",
+      "preparedSha256": "6209a309e28f86bdbb4c8f7d3a4c93bdcb72017e3802f6d3a42d2edf128b71dd",
+      "preparedDurationSeconds": 21.946020833,
+      "preparedFrames": 1053409,
+      "removedSeconds": 1.6164375,
+      "gainDb": 0,
+      "detectedSilences": [
+        {
+          "sourceStartSeconds": 2.566125,
+          "sourceEndSeconds": 3.374083333,
+          "detectedDurationSeconds": 0.807958333,
+          "kind": "internal_pause",
+          "proposedRemovalStartSeconds": 2.726125,
+          "proposedRemovalEndSeconds": 3.214083333,
+          "proposedRemovalPeakDbFS": -56.421,
+          "decision": "shorten",
+          "reason": "deep quiet core, preserve speech-side pause margins",
+          "removedSeconds": 0.487958333,
+          "retainedPauseSeconds": 0.32
+        },
+        {
+          "sourceStartSeconds": 8.019270833,
+          "sourceEndSeconds": 8.939458333,
+          "detectedDurationSeconds": 0.9201875,
+          "kind": "internal_pause",
+          "proposedRemovalStartSeconds": 8.179270833,
+          "proposedRemovalEndSeconds": 8.779458333,
+          "proposedRemovalPeakDbFS": -54.7077,
+          "decision": "shorten",
+          "reason": "deep quiet core, preserve speech-side pause margins",
+          "removedSeconds": 0.6001875,
+          "retainedPauseSeconds": 0.32
+        },
+        {
+          "sourceStartSeconds": 14.081916667,
+          "sourceEndSeconds": 14.930208333,
+          "detectedDurationSeconds": 0.848291667,
+          "kind": "internal_pause",
+          "proposedRemovalStartSeconds": 14.241916667,
+          "proposedRemovalEndSeconds": 14.770208333,
+          "proposedRemovalPeakDbFS": -54.8221,
+          "decision": "shorten",
+          "reason": "deep quiet core, preserve speech-side pause margins",
+          "removedSeconds": 0.528291667,
+          "retainedPauseSeconds": 0.32
+        }
+      ],
+      "removedIntervals": [
+        {
+          "sourceStartSeconds": 2.726125,
+          "sourceEndSeconds": 3.214083333,
+          "sourceStartSample": 130854,
+          "sourceEndSample": 154276,
+          "durationSeconds": 0.487958333,
+          "kind": "internal_pause"
+        },
+        {
+          "sourceStartSeconds": 8.179270833,
+          "sourceEndSeconds": 8.779458333,
+          "sourceStartSample": 392605,
+          "sourceEndSample": 421414,
+          "durationSeconds": 0.6001875,
+          "kind": "internal_pause"
+        },
+        {
+          "sourceStartSeconds": 14.241916667,
+          "sourceEndSeconds": 14.770208333,
+          "sourceStartSample": 683612,
+          "sourceEndSample": 708970,
+          "durationSeconds": 0.528291667,
+          "kind": "internal_pause"
+        }
+      ],
+      "keptSegments": [
+        {
+          "sourceStartSample": 0,
+          "sourceEndSample": 130854,
+          "sourceStartSeconds": 0.0,
+          "sourceEndSeconds": 2.726125,
+          "preparedFileStartSample": 0,
+          "preparedFileEndSample": 130854,
+          "preparedFileStartSeconds": 0.0,
+          "preparedFileEndSeconds": 2.726125,
+          "masterStartSample": 3436621,
+          "masterEndSample": 3567475,
+          "masterStartSeconds": 71.596270833,
+          "masterEndSeconds": 74.322395833
+        },
+        {
+          "sourceStartSample": 154276,
+          "sourceEndSample": 392605,
+          "sourceStartSeconds": 3.214083333,
+          "sourceEndSeconds": 8.179270833,
+          "preparedFileStartSample": 130854,
+          "preparedFileEndSample": 369183,
+          "preparedFileStartSeconds": 2.726125,
+          "preparedFileEndSeconds": 7.6913125,
+          "masterStartSample": 3567475,
+          "masterEndSample": 3805804,
+          "masterStartSeconds": 74.322395833,
+          "masterEndSeconds": 79.287583333
+        },
+        {
+          "sourceStartSample": 421414,
+          "sourceEndSample": 683612,
+          "sourceStartSeconds": 8.779458333,
+          "sourceEndSeconds": 14.241916667,
+          "preparedFileStartSample": 369183,
+          "preparedFileEndSample": 631381,
+          "preparedFileStartSeconds": 7.6913125,
+          "preparedFileEndSeconds": 13.153770833,
+          "masterStartSample": 3805804,
+          "masterEndSample": 4068002,
+          "masterStartSeconds": 79.287583333,
+          "masterEndSeconds": 84.750041667
+        },
+        {
+          "sourceStartSample": 708970,
+          "sourceEndSample": 1130998,
+          "sourceStartSeconds": 14.770208333,
+          "sourceEndSeconds": 23.562458333,
+          "preparedFileStartSample": 631381,
+          "preparedFileEndSample": 1053409,
+          "preparedFileStartSeconds": 13.153770833,
+          "preparedFileEndSeconds": 21.946020833,
+          "masterStartSample": 4068002,
+          "masterEndSample": 4490030,
+          "masterStartSeconds": 84.750041667,
+          "masterEndSeconds": 93.542291667
+        }
+      ],
+      "quietJoinFades": [
+        {
+          "sourceStartSeconds": 2.723125,
+          "sourceEndSeconds": 2.726125,
+          "kind": "fade_out_quiet_join"
+        },
+        {
+          "sourceStartSeconds": 3.214083333,
+          "sourceEndSeconds": 3.217083333,
+          "kind": "fade_in_quiet_join"
+        },
+        {
+          "sourceStartSeconds": 8.176270833,
+          "sourceEndSeconds": 8.179270833,
+          "kind": "fade_out_quiet_join"
+        },
+        {
+          "sourceStartSeconds": 8.779458333,
+          "sourceEndSeconds": 8.782458333,
+          "kind": "fade_in_quiet_join"
+        },
+        {
+          "sourceStartSeconds": 14.238916667,
+          "sourceEndSeconds": 14.241916667,
+          "kind": "fade_out_quiet_join"
+        },
+        {
+          "sourceStartSeconds": 14.770208333,
+          "sourceEndSeconds": 14.773208333,
+          "kind": "fade_in_quiet_join"
+        }
+      ],
+      "rawConcatenationStartSeconds": 75.729,
+      "rawConcatenationEndSeconds": 99.291458333,
+      "preparedMasterStartSample": 3436621,
+      "preparedMasterEndSample": 4490030,
+      "preparedMasterStartSeconds": 71.596270833,
+      "preparedMasterEndSeconds": 93.542291667
+    },
+    {
+      "sourceFile": "05.mp3",
+      "sourcePath": "/workspace/work/documentary/originals/audio/05.mp3",
+      "sourceAttachmentId": "file_00000000748481f4b39208f2b0102663",
+      "sourceSha256": "3ad5c73d70b32c289ad766aeeb32d1b3eb3b7d7c1c0e96422c4e897e42277094",
+      "sourceContainerDurationSeconds": 27.977063,
+      "sourceDecodedDurationSeconds": 27.977145833,
+      "sourceDecodedFrames": 1342903,
+      "sourceFormat": {
+        "codec_name": "mp3",
+        "sample_rate": "44100",
+        "channels": 1,
+        "start_time": "0.000000"
+      },
+      "sourceMetrics": {
+        "integratedLUFS": -14.77,
+        "truePeakDbTP": -0.83,
+        "loudnessRangeLU": 3.3,
+        "samplePeakDbFS": -0.8301,
+        "rmsDbFS": -14.8402,
+        "clippedSampleCount": 0
+      },
+      "preparedFile": "05.wav",
+      "preparedPath": "/workspace/work/documentary/prepared/audio/05.wav",
+      "preparedSha256": "f723d2100026047eb4376f2b8ffd72092385e9dfe02fafafc163f5132a40e417",
+      "preparedDurationSeconds": 27.2975,
+      "preparedFrames": 1310280,
+      "removedSeconds": 0.679645833,
+      "gainDb": 0,
+      "detectedSilences": [
+        {
+          "sourceStartSeconds": 8.319145833,
+          "sourceEndSeconds": 9.318791667,
+          "detectedDurationSeconds": 0.999645833,
+          "kind": "internal_pause",
+          "proposedRemovalStartSeconds": 8.479145833,
+          "proposedRemovalEndSeconds": 9.158791667,
+          "proposedRemovalPeakDbFS": -54.6506,
+          "decision": "shorten",
+          "reason": "deep quiet core, preserve speech-side pause margins",
+          "removedSeconds": 0.679645833,
+          "retainedPauseSeconds": 0.32
+        }
+      ],
+      "removedIntervals": [
+        {
+          "sourceStartSeconds": 8.479145833,
+          "sourceEndSeconds": 9.158791667,
+          "sourceStartSample": 406999,
+          "sourceEndSample": 439622,
+          "durationSeconds": 0.679645833,
+          "kind": "internal_pause"
+        }
+      ],
+      "keptSegments": [
+        {
+          "sourceStartSample": 0,
+          "sourceEndSample": 406999,
+          "sourceStartSeconds": 0.0,
+          "sourceEndSeconds": 8.479145833,
+          "preparedFileStartSample": 0,
+          "preparedFileEndSample": 406999,
+          "preparedFileStartSeconds": 0.0,
+          "preparedFileEndSeconds": 8.479145833,
+          "masterStartSample": 4490030,
+          "masterEndSample": 4897029,
+          "masterStartSeconds": 93.542291667,
+          "masterEndSeconds": 102.0214375
+        },
+        {
+          "sourceStartSample": 439622,
+          "sourceEndSample": 1342903,
+          "sourceStartSeconds": 9.158791667,
+          "sourceEndSeconds": 27.977145833,
+          "preparedFileStartSample": 406999,
+          "preparedFileEndSample": 1310280,
+          "preparedFileStartSeconds": 8.479145833,
+          "preparedFileEndSeconds": 27.2975,
+          "masterStartSample": 4897029,
+          "masterEndSample": 5800310,
+          "masterStartSeconds": 102.0214375,
+          "masterEndSeconds": 120.839791667
+        }
+      ],
+      "quietJoinFades": [
+        {
+          "sourceStartSeconds": 8.476145833,
+          "sourceEndSeconds": 8.479145833,
+          "kind": "fade_out_quiet_join"
+        },
+        {
+          "sourceStartSeconds": 9.158791667,
+          "sourceEndSeconds": 9.161791667,
+          "kind": "fade_in_quiet_join"
+        }
+      ],
+      "rawConcatenationStartSeconds": 99.291458333,
+      "rawConcatenationEndSeconds": 127.268604167,
+      "preparedMasterStartSample": 4490030,
+      "preparedMasterEndSample": 5800310,
+      "preparedMasterStartSeconds": 93.542291667,
+      "preparedMasterEndSeconds": 120.839791667
+    },
+    {
+      "sourceFile": "06.mp3",
+      "sourcePath": "/workspace/work/documentary/originals/audio/06.mp3",
+      "sourceAttachmentId": "file_00000000b60081f49d1198563f50c424",
+      "sourceSha256": "bbe81371cf61f93a6d8cfd554624f41c76332f598f504c7f1a122723d2c56511",
+      "sourceContainerDurationSeconds": 29.962375,
+      "sourceDecodedDurationSeconds": 29.962458333,
+      "sourceDecodedFrames": 1438198,
+      "sourceFormat": {
+        "codec_name": "mp3",
+        "sample_rate": "44100",
+        "channels": 1,
+        "start_time": "0.000000"
+      },
+      "sourceMetrics": {
+        "integratedLUFS": -15.01,
+        "truePeakDbTP": -0.5,
+        "loudnessRangeLU": 3.2,
+        "samplePeakDbFS": -0.5426,
+        "rmsDbFS": -15.326,
+        "clippedSampleCount": 0
+      },
+      "preparedFile": "06.wav",
+      "preparedPath": "/workspace/work/documentary/prepared/audio/06.wav",
+      "preparedSha256": "24c2997fb373cf9958aba956a2c22f5ec9514d7f044e429e37315dbf7a1181bc",
+      "preparedDurationSeconds": 28.944541667,
+      "preparedFrames": 1389338,
+      "removedSeconds": 1.017916667,
+      "gainDb": 0,
+      "detectedSilences": [
+        {
+          "sourceStartSeconds": 3.662729167,
+          "sourceEndSeconds": 4.41625,
+          "detectedDurationSeconds": 0.753520833,
+          "kind": "internal_pause",
+          "proposedRemovalStartSeconds": 3.822729167,
+          "proposedRemovalEndSeconds": 4.25625,
+          "proposedRemovalPeakDbFS": -57.1399,
+          "decision": "shorten",
+          "reason": "deep quiet core, preserve speech-side pause margins",
+          "removedSeconds": 0.433520833,
+          "retainedPauseSeconds": 0.32
+        },
+        {
+          "sourceStartSeconds": 9.3061875,
+          "sourceEndSeconds": 10.210583333,
+          "detectedDurationSeconds": 0.904395833,
+          "kind": "internal_pause",
+          "proposedRemovalStartSeconds": 9.4661875,
+          "proposedRemovalEndSeconds": 10.050583333,
+          "proposedRemovalPeakDbFS": -62.8169,
+          "decision": "shorten",
+          "reason": "deep quiet core, preserve speech-side pause margins",
+          "removedSeconds": 0.584395833,
+          "retainedPauseSeconds": 0.32
+        },
+        {
+          "sourceStartSeconds": 18.431583333,
+          "sourceEndSeconds": 19.161604167,
+          "detectedDurationSeconds": 0.730020833,
+          "kind": "internal_pause",
+          "proposedRemovalStartSeconds": 18.591583333,
+          "proposedRemovalEndSeconds": 19.001604167,
+          "proposedRemovalPeakDbFS": -47.1793,
+          "decision": "retain",
+          "reason": "residual quiet activity: preserve possible breath or soft articulation"
+        },
+        {
+          "sourceStartSeconds": 23.449416667,
+          "sourceEndSeconds": 24.219270833,
+          "detectedDurationSeconds": 0.769854167,
+          "kind": "internal_pause",
+          "proposedRemovalStartSeconds": 23.609416667,
+          "proposedRemovalEndSeconds": 24.059270833,
+          "proposedRemovalPeakDbFS": -45.6772,
+          "decision": "retain",
+          "reason": "residual quiet activity: preserve possible breath or soft articulation"
+        }
+      ],
+      "removedIntervals": [
+        {
+          "sourceStartSeconds": 3.822729167,
+          "sourceEndSeconds": 4.25625,
+          "sourceStartSample": 183491,
+          "sourceEndSample": 204300,
+          "durationSeconds": 0.433520833,
+          "kind": "internal_pause"
+        },
+        {
+          "sourceStartSeconds": 9.4661875,
+          "sourceEndSeconds": 10.050583333,
+          "sourceStartSample": 454377,
+          "sourceEndSample": 482428,
+          "durationSeconds": 0.584395833,
+          "kind": "internal_pause"
+        }
+      ],
+      "keptSegments": [
+        {
+          "sourceStartSample": 0,
+          "sourceEndSample": 183491,
+          "sourceStartSeconds": 0.0,
+          "sourceEndSeconds": 3.822729167,
+          "preparedFileStartSample": 0,
+          "preparedFileEndSample": 183491,
+          "preparedFileStartSeconds": 0.0,
+          "preparedFileEndSeconds": 3.822729167,
+          "masterStartSample": 5800310,
+          "masterEndSample": 5983801,
+          "masterStartSeconds": 120.839791667,
+          "masterEndSeconds": 124.662520833
+        },
+        {
+          "sourceStartSample": 204300,
+          "sourceEndSample": 454377,
+          "sourceStartSeconds": 4.25625,
+          "sourceEndSeconds": 9.4661875,
+          "preparedFileStartSample": 183491,
+          "preparedFileEndSample": 433568,
+          "preparedFileStartSeconds": 3.822729167,
+          "preparedFileEndSeconds": 9.032666667,
+          "masterStartSample": 5983801,
+          "masterEndSample": 6233878,
+          "masterStartSeconds": 124.662520833,
+          "masterEndSeconds": 129.872458333
+        },
+        {
+          "sourceStartSample": 482428,
+          "sourceEndSample": 1438198,
+          "sourceStartSeconds": 10.050583333,
+          "sourceEndSeconds": 29.962458333,
+          "preparedFileStartSample": 433568,
+          "preparedFileEndSample": 1389338,
+          "preparedFileStartSeconds": 9.032666667,
+          "preparedFileEndSeconds": 28.944541667,
+          "masterStartSample": 6233878,
+          "masterEndSample": 7189648,
+          "masterStartSeconds": 129.872458333,
+          "masterEndSeconds": 149.784333333
+        }
+      ],
+      "quietJoinFades": [
+        {
+          "sourceStartSeconds": 3.819729167,
+          "sourceEndSeconds": 3.822729167,
+          "kind": "fade_out_quiet_join"
+        },
+        {
+          "sourceStartSeconds": 4.25625,
+          "sourceEndSeconds": 4.25925,
+          "kind": "fade_in_quiet_join"
+        },
+        {
+          "sourceStartSeconds": 9.4631875,
+          "sourceEndSeconds": 9.4661875,
+          "kind": "fade_out_quiet_join"
+        },
+        {
+          "sourceStartSeconds": 10.050583333,
+          "sourceEndSeconds": 10.053583333,
+          "kind": "fade_in_quiet_join"
+        }
+      ],
+      "rawConcatenationStartSeconds": 127.268604167,
+      "rawConcatenationEndSeconds": 157.2310625,
+      "preparedMasterStartSample": 5800310,
+      "preparedMasterEndSample": 7189648,
+      "preparedMasterStartSeconds": 120.839791667,
+      "preparedMasterEndSeconds": 149.784333333
+    },
+    {
+      "sourceFile": "07.mp3",
+      "sourcePath": "/workspace/work/documentary/originals/audio/07.mp3",
+      "sourceAttachmentId": "file_00000000023081f5be8a4a62c91db3b1",
+      "sourceSha256": "6bb3a26f07f933af9c02a10eb848c68ecec3258f3b0edf7a3ba228cbb92ef355",
+      "sourceContainerDurationSeconds": 26.592563,
+      "sourceDecodedDurationSeconds": 26.592666667,
+      "sourceDecodedFrames": 1276448,
+      "sourceFormat": {
+        "codec_name": "mp3",
+        "sample_rate": "44100",
+        "channels": 1,
+        "start_time": "0.000000"
+      },
+      "sourceMetrics": {
+        "integratedLUFS": -14.59,
+        "truePeakDbTP": -0.91,
+        "loudnessRangeLU": 2.2,
+        "samplePeakDbFS": -0.9104,
+        "rmsDbFS": -14.8946,
+        "clippedSampleCount": 0
+      },
+      "preparedFile": "07.wav",
+      "preparedPath": "/workspace/work/documentary/prepared/audio/07.wav",
+      "preparedSha256": "9d3d04bc998bae1066336d3fecf74c32588ee20282ee1b2308b943ad5107743e",
+      "preparedDurationSeconds": 26.122083333,
+      "preparedFrames": 1253860,
+      "removedSeconds": 0.470583333,
+      "gainDb": 0,
+      "detectedSilences": [
+        {
+          "sourceStartSeconds": 6.3735625,
+          "sourceEndSeconds": 7.164145833,
+          "detectedDurationSeconds": 0.790583333,
+          "kind": "internal_pause",
+          "proposedRemovalStartSeconds": 6.5335625,
+          "proposedRemovalEndSeconds": 7.004145833,
+          "proposedRemovalPeakDbFS": -55.1944,
+          "decision": "shorten",
+          "reason": "deep quiet core, preserve speech-side pause margins",
+          "removedSeconds": 0.470583333,
+          "retainedPauseSeconds": 0.32
+        },
+        {
+          "sourceStartSeconds": 18.842583333,
+          "sourceEndSeconds": 19.79575,
+          "detectedDurationSeconds": 0.953166667,
+          "kind": "internal_pause",
+          "proposedRemovalStartSeconds": 19.002583333,
+          "proposedRemovalEndSeconds": 19.63575,
+          "proposedRemovalPeakDbFS": -45.6614,
+          "decision": "retain",
+          "reason": "residual quiet activity: preserve possible breath or soft articulation"
+        }
+      ],
+      "removedIntervals": [
+        {
+          "sourceStartSeconds": 6.5335625,
+          "sourceEndSeconds": 7.004145833,
+          "sourceStartSample": 313611,
+          "sourceEndSample": 336199,
+          "durationSeconds": 0.470583333,
+          "kind": "internal_pause"
+        }
+      ],
+      "keptSegments": [
+        {
+          "sourceStartSample": 0,
+          "sourceEndSample": 313611,
+          "sourceStartSeconds": 0.0,
+          "sourceEndSeconds": 6.5335625,
+          "preparedFileStartSample": 0,
+          "preparedFileEndSample": 313611,
+          "preparedFileStartSeconds": 0.0,
+          "preparedFileEndSeconds": 6.5335625,
+          "masterStartSample": 7189648,
+          "masterEndSample": 7503259,
+          "masterStartSeconds": 149.784333333,
+          "masterEndSeconds": 156.317895833
+        },
+        {
+          "sourceStartSample": 336199,
+          "sourceEndSample": 1276448,
+          "sourceStartSeconds": 7.004145833,
+          "sourceEndSeconds": 26.592666667,
+          "preparedFileStartSample": 313611,
+          "preparedFileEndSample": 1253860,
+          "preparedFileStartSeconds": 6.5335625,
+          "preparedFileEndSeconds": 26.122083333,
+          "masterStartSample": 7503259,
+          "masterEndSample": 8443508,
+          "masterStartSeconds": 156.317895833,
+          "masterEndSeconds": 175.906416667
+        }
+      ],
+      "quietJoinFades": [
+        {
+          "sourceStartSeconds": 6.5305625,
+          "sourceEndSeconds": 6.5335625,
+          "kind": "fade_out_quiet_join"
+        },
+        {
+          "sourceStartSeconds": 7.004145833,
+          "sourceEndSeconds": 7.007145833,
+          "kind": "fade_in_quiet_join"
+        }
+      ],
+      "rawConcatenationStartSeconds": 157.2310625,
+      "rawConcatenationEndSeconds": 183.823729167,
+      "preparedMasterStartSample": 7189648,
+      "preparedMasterEndSample": 8443508,
+      "preparedMasterStartSeconds": 149.784333333,
+      "preparedMasterEndSeconds": 175.906416667
+    },
+    {
+      "sourceFile": "08.mp3",
+      "sourcePath": "/workspace/work/documentary/originals/audio/08.mp3",
+      "sourceAttachmentId": "file_00000000b6e481f4aae39129b16aea12",
+      "sourceSha256": "1d3aec0bf43b33ff6bd49042f48fbe38ee25923fe4a450b32ffe9b43e5b5494e",
+      "sourceContainerDurationSeconds": 28.055438,
+      "sourceDecodedDurationSeconds": 28.055520833,
+      "sourceDecodedFrames": 1346665,
+      "sourceFormat": {
+        "codec_name": "mp3",
+        "sample_rate": "44100",
+        "channels": 1,
+        "start_time": "0.000000"
+      },
+      "sourceMetrics": {
+        "integratedLUFS": -15.16,
+        "truePeakDbTP": -0.67,
+        "loudnessRangeLU": 3.2,
+        "samplePeakDbFS": -0.6864,
+        "rmsDbFS": -15.274,
+        "clippedSampleCount": 0
+      },
+      "preparedFile": "08.wav",
+      "preparedPath": "/workspace/work/documentary/prepared/audio/08.wav",
+      "preparedSha256": "4bfa3289104f9b1842b7130dd0c36a477ded64dab2e866a9d5ed62940c0d61f1",
+      "preparedDurationSeconds": 26.8629375,
+      "preparedFrames": 1289421,
+      "removedSeconds": 1.192583333,
+      "gainDb": 0,
+      "detectedSilences": [
+        {
+          "sourceStartSeconds": 4.842875,
+          "sourceEndSeconds": 5.549895833,
+          "detectedDurationSeconds": 0.707020833,
+          "kind": "internal_pause",
+          "proposedRemovalStartSeconds": 5.002875,
+          "proposedRemovalEndSeconds": 5.389895833,
+          "proposedRemovalPeakDbFS": -53.4843,
+          "decision": "shorten",
+          "reason": "deep quiet core, preserve speech-side pause margins",
+          "removedSeconds": 0.387020833,
+          "retainedPauseSeconds": 0.32
+        },
+        {
+          "sourceStartSeconds": 8.901895833,
+          "sourceEndSeconds": 9.6506875,
+          "detectedDurationSeconds": 0.748791667,
+          "kind": "internal_pause",
+          "proposedRemovalStartSeconds": 9.061895833,
+          "proposedRemovalEndSeconds": 9.4906875,
+          "proposedRemovalPeakDbFS": -61.4435,
+          "decision": "shorten",
+          "reason": "deep quiet core, preserve speech-side pause margins",
+          "removedSeconds": 0.428791667,
+          "retainedPauseSeconds": 0.32
+        },
+        {
+          "sourceStartSeconds": 22.875708333,
+          "sourceEndSeconds": 23.572479167,
+          "detectedDurationSeconds": 0.696770833,
+          "kind": "internal_pause",
+          "proposedRemovalStartSeconds": 23.035708333,
+          "proposedRemovalEndSeconds": 23.412479167,
+          "proposedRemovalPeakDbFS": -64.207,
+          "decision": "shorten",
+          "reason": "deep quiet core, preserve speech-side pause margins",
+          "removedSeconds": 0.376770833,
+          "retainedPauseSeconds": 0.32
+        }
+      ],
+      "removedIntervals": [
+        {
+          "sourceStartSeconds": 5.002875,
+          "sourceEndSeconds": 5.389895833,
+          "sourceStartSample": 240138,
+          "sourceEndSample": 258715,
+          "durationSeconds": 0.387020833,
+          "kind": "internal_pause"
+        },
+        {
+          "sourceStartSeconds": 9.061895833,
+          "sourceEndSeconds": 9.4906875,
+          "sourceStartSample": 434971,
+          "sourceEndSample": 455553,
+          "durationSeconds": 0.428791667,
+          "kind": "internal_pause"
+        },
+        {
+          "sourceStartSeconds": 23.035708333,
+          "sourceEndSeconds": 23.412479167,
+          "sourceStartSample": 1105714,
+          "sourceEndSample": 1123799,
+          "durationSeconds": 0.376770833,
+          "kind": "internal_pause"
+        }
+      ],
+      "keptSegments": [
+        {
+          "sourceStartSample": 0,
+          "sourceEndSample": 240138,
+          "sourceStartSeconds": 0.0,
+          "sourceEndSeconds": 5.002875,
+          "preparedFileStartSample": 0,
+          "preparedFileEndSample": 240138,
+          "preparedFileStartSeconds": 0.0,
+          "preparedFileEndSeconds": 5.002875,
+          "masterStartSample": 8443508,
+          "masterEndSample": 8683646,
+          "masterStartSeconds": 175.906416667,
+          "masterEndSeconds": 180.909291667
+        },
+        {
+          "sourceStartSample": 258715,
+          "sourceEndSample": 434971,
+          "sourceStartSeconds": 5.389895833,
+          "sourceEndSeconds": 9.061895833,
+          "preparedFileStartSample": 240138,
+          "preparedFileEndSample": 416394,
+          "preparedFileStartSeconds": 5.002875,
+          "preparedFileEndSeconds": 8.674875,
+          "masterStartSample": 8683646,
+          "masterEndSample": 8859902,
+          "masterStartSeconds": 180.909291667,
+          "masterEndSeconds": 184.581291667
+        },
+        {
+          "sourceStartSample": 455553,
+          "sourceEndSample": 1105714,
+          "sourceStartSeconds": 9.4906875,
+          "sourceEndSeconds": 23.035708333,
+          "preparedFileStartSample": 416394,
+          "preparedFileEndSample": 1066555,
+          "preparedFileStartSeconds": 8.674875,
+          "preparedFileEndSeconds": 22.219895833,
+          "masterStartSample": 8859902,
+          "masterEndSample": 9510063,
+          "masterStartSeconds": 184.581291667,
+          "masterEndSeconds": 198.1263125
+        },
+        {
+          "sourceStartSample": 1123799,
+          "sourceEndSample": 1346665,
+          "sourceStartSeconds": 23.412479167,
+          "sourceEndSeconds": 28.055520833,
+          "preparedFileStartSample": 1066555,
+          "preparedFileEndSample": 1289421,
+          "preparedFileStartSeconds": 22.219895833,
+          "preparedFileEndSeconds": 26.8629375,
+          "masterStartSample": 9510063,
+          "masterEndSample": 9732929,
+          "masterStartSeconds": 198.1263125,
+          "masterEndSeconds": 202.769354167
+        }
+      ],
+      "quietJoinFades": [
+        {
+          "sourceStartSeconds": 4.999875,
+          "sourceEndSeconds": 5.002875,
+          "kind": "fade_out_quiet_join"
+        },
+        {
+          "sourceStartSeconds": 5.389895833,
+          "sourceEndSeconds": 5.392895833,
+          "kind": "fade_in_quiet_join"
+        },
+        {
+          "sourceStartSeconds": 9.058895833,
+          "sourceEndSeconds": 9.061895833,
+          "kind": "fade_out_quiet_join"
+        },
+        {
+          "sourceStartSeconds": 9.4906875,
+          "sourceEndSeconds": 9.4936875,
+          "kind": "fade_in_quiet_join"
+        },
+        {
+          "sourceStartSeconds": 23.032708333,
+          "sourceEndSeconds": 23.035708333,
+          "kind": "fade_out_quiet_join"
+        },
+        {
+          "sourceStartSeconds": 23.412479167,
+          "sourceEndSeconds": 23.415479167,
+          "kind": "fade_in_quiet_join"
+        }
+      ],
+      "rawConcatenationStartSeconds": 183.823729167,
+      "rawConcatenationEndSeconds": 211.87925,
+      "preparedMasterStartSample": 8443508,
+      "preparedMasterEndSample": 9732929,
+      "preparedMasterStartSeconds": 175.906416667,
+      "preparedMasterEndSeconds": 202.769354167
+    },
+    {
+      "sourceFile": "09.mp3",
+      "sourcePath": "/workspace/work/documentary/originals/audio/09.mp3",
+      "sourceAttachmentId": "file_000000000d5481f5a38a93321a36453d",
+      "sourceSha256": "34dabda39efd99467fd063f2ecc33108987fc3a45102c20dcd7054bb4830b12b",
+      "sourceContainerDurationSeconds": 29.048063,
+      "sourceDecodedDurationSeconds": 29.048166667,
+      "sourceDecodedFrames": 1394312,
+      "sourceFormat": {
+        "codec_name": "mp3",
+        "sample_rate": "44100",
+        "channels": 1,
+        "start_time": "0.000000"
+      },
+      "sourceMetrics": {
+        "integratedLUFS": -15.37,
+        "truePeakDbTP": -0.56,
+        "loudnessRangeLU": 2.9,
+        "samplePeakDbFS": -0.6198,
+        "rmsDbFS": -15.5854,
+        "clippedSampleCount": 0
+      },
+      "preparedFile": "09.wav",
+      "preparedPath": "/workspace/work/documentary/prepared/audio/09.wav",
+      "preparedSha256": "0ef556a0c805b08675de9a2819fc65db843a567274d9fac95f42743e2f7c0fe9",
+      "preparedDurationSeconds": 29.048166667,
+      "preparedFrames": 1394312,
+      "removedSeconds": 0.0,
+      "gainDb": 0,
+      "detectedSilences": [
+        {
+          "sourceStartSeconds": 6.4646875,
+          "sourceEndSeconds": 7.131479167,
+          "detectedDurationSeconds": 0.666791667,
+          "kind": "internal_pause",
+          "proposedRemovalStartSeconds": 6.6246875,
+          "proposedRemovalEndSeconds": 6.971479167,
+          "proposedRemovalPeakDbFS": -47.8477,
+          "decision": "retain",
+          "reason": "residual quiet activity: preserve possible breath or soft articulation"
+        }
+      ],
+      "removedIntervals": [],
+      "keptSegments": [
+        {
+          "sourceStartSample": 0,
+          "sourceEndSample": 1394312,
+          "sourceStartSeconds": 0.0,
+          "sourceEndSeconds": 29.048166667,
+          "preparedFileStartSample": 0,
+          "preparedFileEndSample": 1394312,
+          "preparedFileStartSeconds": 0.0,
+          "preparedFileEndSeconds": 29.048166667,
+          "masterStartSample": 9732929,
+          "masterEndSample": 11127241,
+          "masterStartSeconds": 202.769354167,
+          "masterEndSeconds": 231.817520833
+        }
+      ],
+      "quietJoinFades": [],
+      "rawConcatenationStartSeconds": 211.87925,
+      "rawConcatenationEndSeconds": 240.927416667,
+      "preparedMasterStartSample": 9732929,
+      "preparedMasterEndSample": 11127241,
+      "preparedMasterStartSeconds": 202.769354167,
+      "preparedMasterEndSeconds": 231.817520833
+    },
+    {
+      "sourceFile": "10.mp3",
+      "sourcePath": "/workspace/work/documentary/originals/audio/10.mp3",
+      "sourceAttachmentId": "file_00000000a9c08210b6dce4760848002a",
+      "sourceSha256": "8dfc79dd454c65402c53869c27e086852685f0cebc2edd08c1fa96334d40debc",
+      "sourceContainerDurationSeconds": 4.153375,
+      "sourceDecodedDurationSeconds": 4.153479167,
+      "sourceDecodedFrames": 199367,
+      "sourceFormat": {
+        "codec_name": "mp3",
+        "sample_rate": "44100",
+        "channels": 1,
+        "start_time": "0.000000"
+      },
+      "sourceMetrics": {
+        "integratedLUFS": -15.04,
+        "truePeakDbTP": -0.66,
+        "loudnessRangeLU": 1.6,
+        "samplePeakDbFS": -0.7247,
+        "rmsDbFS": -16.0542,
+        "clippedSampleCount": 0
+      },
+      "preparedFile": "10.wav",
+      "preparedPath": "/workspace/work/documentary/prepared/audio/10.wav",
+      "preparedSha256": "e8c093578117174d3ebbbb9992f13a489262a89bbc3655f169eb705e8c518fbb",
+      "preparedDurationSeconds": 3.790708333,
+      "preparedFrames": 181954,
+      "removedSeconds": 0.362770833,
+      "gainDb": 0,
+      "detectedSilences": [
+        {
+          "sourceStartSeconds": 2.3830625,
+          "sourceEndSeconds": 3.065833333,
+          "detectedDurationSeconds": 0.682770833,
+          "kind": "internal_pause",
+          "proposedRemovalStartSeconds": 2.5430625,
+          "proposedRemovalEndSeconds": 2.905833333,
+          "proposedRemovalPeakDbFS": -60.6152,
+          "decision": "shorten",
+          "reason": "deep quiet core, preserve speech-side pause margins",
+          "removedSeconds": 0.362770833,
+          "retainedPauseSeconds": 0.32
+        }
+      ],
+      "removedIntervals": [
+        {
+          "sourceStartSeconds": 2.5430625,
+          "sourceEndSeconds": 2.905833333,
+          "sourceStartSample": 122067,
+          "sourceEndSample": 139480,
+          "durationSeconds": 0.362770833,
+          "kind": "internal_pause"
+        }
+      ],
+      "keptSegments": [
+        {
+          "sourceStartSample": 0,
+          "sourceEndSample": 122067,
+          "sourceStartSeconds": 0.0,
+          "sourceEndSeconds": 2.5430625,
+          "preparedFileStartSample": 0,
+          "preparedFileEndSample": 122067,
+          "preparedFileStartSeconds": 0.0,
+          "preparedFileEndSeconds": 2.5430625,
+          "masterStartSample": 11127241,
+          "masterEndSample": 11249308,
+          "masterStartSeconds": 231.817520833,
+          "masterEndSeconds": 234.360583333
+        },
+        {
+          "sourceStartSample": 139480,
+          "sourceEndSample": 199367,
+          "sourceStartSeconds": 2.905833333,
+          "sourceEndSeconds": 4.153479167,
+          "preparedFileStartSample": 122067,
+          "preparedFileEndSample": 181954,
+          "preparedFileStartSeconds": 2.5430625,
+          "preparedFileEndSeconds": 3.790708333,
+          "masterStartSample": 11249308,
+          "masterEndSample": 11309195,
+          "masterStartSeconds": 234.360583333,
+          "masterEndSeconds": 235.608229167
+        }
+      ],
+      "quietJoinFades": [
+        {
+          "sourceStartSeconds": 2.5400625,
+          "sourceEndSeconds": 2.5430625,
+          "kind": "fade_out_quiet_join"
+        },
+        {
+          "sourceStartSeconds": 2.905833333,
+          "sourceEndSeconds": 2.908833333,
+          "kind": "fade_in_quiet_join"
+        }
+      ],
+      "rawConcatenationStartSeconds": 240.927416667,
+      "rawConcatenationEndSeconds": 245.080895833,
+      "preparedMasterStartSample": 11127241,
+      "preparedMasterEndSample": 11309195,
+      "preparedMasterStartSeconds": 231.817520833,
+      "preparedMasterEndSeconds": 235.608229167
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name":"qui-a-invente-les-rois",
+  "version":"1.0.0",
+  "private":true,
+  "type":"module",
+  "engines":{"node":">=22"},
+  "scripts":{
+    "build":"python3 scripts/build_composition.py",
+    "dev":"hyperframes preview",
+    "preview":"hyperframes preview --background",
+    "preview:status":"hyperframes preview --status",
+    "check":"hyperframes check --samples 44",
+    "snapshot":"hyperframes snapshot --at 2.8,25.8,52.8,90.9,107.4,129.3,157.7,188.9,221.8,234.8 --no-end",
+    "render":"hyperframes render --fps 30 --quality delivery --crf 20 --workers 2 --no-low-memory-mode --output renders/royaute-documentaire.mp4"
+  },
+  "devDependencies":{"hyperframes":"0.8.145"}
+}
